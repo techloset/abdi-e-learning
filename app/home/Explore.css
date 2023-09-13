@@ -1,0 +1,11 @@
+.book {
+    transform: rotate(-10deg);
+    /* display: none; */
+}
+
+.try{
+width: 240px;
+    height: 38.974px;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+}

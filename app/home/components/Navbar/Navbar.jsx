@@ -1,0 +1,81 @@
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+
+function Navbar() {
+  return (
+    <nav class="px-4 lg:px-[121px]">
+      <div class="flex items-center text-gray-900 justify-between">
+        <a href="#" class="block cursor-pointer">
+          <div className="logo pt-2 lg:pt-[30px] w-[114px] h-[83px]">
+            <Image
+              src="/images/NavLogo.png"
+              alt="logo"
+              width={100}
+              height={100}
+            />
+          </div>
+        </a>
+        <div className="flex items-center pt-2 lg:pt-[30px]">
+          <ul class="hidden gap-20 lg:flex items-end text-xl not-italic font-normal text-white">
+            <li class="block">
+              <Link class="flex items-center" href="/">
+                Home
+              </Link>
+            </li>
+            <li class="block">
+              <a class="flex items-center" href="#">
+                Courses
+              </a>
+            </li>
+            <li class="block">
+              <a class="flex items-center" href="#">
+                Careers
+              </a>
+            </li>
+            <li class="block">
+              <Link class="flex items-center" href="/blog">
+                Blog
+              </Link>
+            </li>
+            <li class="block">
+              <a class="flex items-center" href="#">
+                About Us
+              </a>
+            </li>
+          </ul>
+          <button className="ms-20 w-40 h-16 bg-[#FFFFFF] rounded-[80px] shadow-md text-gray-700 text-xl not-italic font-medium hidden 2xl:block">
+            Login
+          </button>
+          <button className="ms-[26px] w-40 h-16 bg-[#FFFFFF4D] rounded-[80px] shadow-md text-white text-xl not-italic font-medium hidden 2xl:block">
+            Sign Up
+          </button>
+        </div>
+
+        {/* hamburger */}
+        <button
+          class="middle none relative ml-auto h-6 max-h-[40px] w-6 max-w-[40px] rounded-lg text-center  text-xs font-medium uppercase text-blue-gray-500 transition-all hover:bg-transparent focus:bg-transparent active:bg-transparent disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none lg:hidden"
+          data-collapse-target="navbar"
+        >
+          <span class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 transform">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+            </svg>
+          </span>
+        </button>
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
