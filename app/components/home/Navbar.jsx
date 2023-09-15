@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -8,12 +7,7 @@ function Navbar() {
       <div class="flex items-center text-gray-900 justify-between">
         <a href="#" class="block cursor-pointer">
           <div className="logo pt-2 lg:pt-[30px] w-[114px] h-[83px]">
-            <Image
-              src="/images/NavLogo.png"
-              alt="logo"
-              width={100}
-              height={100}
-            />
+            <img src="/images/NavLogo.png" alt="logo" />
           </div>
         </a>
         <div className="flex items-center pt-2 lg:pt-[30px]">
