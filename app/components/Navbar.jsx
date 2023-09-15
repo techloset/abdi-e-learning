@@ -5,7 +5,7 @@ function Navbar() {
     <nav class="bg-white border-gray-200">
       <div class=" flex flex-wrap items-center justify-between  p-4 mx-6 xl:mx-[120px]">
         <a href="/" class="flex items-center">
-          <img src="/images/NavLogoDark.png" class="h-20" alt="Flowbite Logo" />
+          <img src="/images/NavLogoDark.png" class="h-20" alt="Logo" />
         </a>
         <div
           class="items-center justify-between flex md:order-1"
