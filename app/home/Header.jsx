@@ -52,7 +52,7 @@ function Header() {
               className="h-[800px] -mt-[80px]"
             />
           </div>
-          <div className="hidden 2xl:block mt-1 2xl:w-[862px] 2xl:h-[900px] ">
+          <div className="hidden 2xl:block -mt-2 2xl:w-[862px] 2xl:h-[900px] ">
             <img src="/images/imageGirl.png" className="h-full w-full" alt="" />
           </div>
         </div>
