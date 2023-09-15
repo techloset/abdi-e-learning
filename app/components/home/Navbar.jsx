@@ -5,11 +5,8 @@ function Navbar() {
   return (
     <nav class="px-4 lg:px-[121px]">
       <div class="flex items-center text-gray-900 justify-between">
-        <a
-          href="#"
-          class="block cursor-pointer logo pt-2 lg:pt-[30px] w-[114px] h-[83px]"
-        >
-          <img src="/images/NavLogo.png" alt="logo" />
+        <a href="/" class="flex items-center pt-2 lg:pt-[30px]">
+          <img src="/images/NavLogoDark.png" class="h-20" alt="Flowbite Logo" />
         </a>
         <div className="flex items-center pt-2 lg:pt-[30px]">
           <ul class="hidden gap-20 lg:flex items-end text-xl not-italic font-normal text-white">
