@@ -4,31 +4,31 @@ const Card = ({ cards }) => {
     <section>
       {/* Heading for the latest News */}
       <div className=" text-center mt-36 mx-auto">
-        <p className="text-[#2F327D] text-4xl   font-bold py-5">
+        <p className="text-purple-900 text-4xl   font-bold py-5">
           Latest News and Resources
         </p>
-        <p className="text-[#696984] text-2xl mt-5">
+        <p className="text-gray-600 text-2xl mt-5">
           See the developments that have occurred to TOTC in the world
         </p>
       </div>
 
       <div className="grid grid-cols-12 py-5 gap-4 mx-4 2xl:mx-[155px] mt-24 flex-col lg:flex-row">
-        <div class="col-span-12 xl:col-span-6">
-          <img class="" src="/images/testiLaptop.png" alt="" />
+        <div className="col-span-12 xl:col-span-6">
+          <img className="" src="/images/testiLaptop.png" alt="" />
 
-          <div class="flex flex-col justify-start xl:max-w-[609px] mt-10">
-            <button className="bg-[#49BBBD] text-white text-xl py-2 px-4 rounded-full w-1/4">
+          <div className="flex flex-col justify-start xl:max-w-[609px] mt-10">
+            <button className="bg-teal-400 text-white text-xl py-2 px-4 rounded-full w-1/4">
               NEWS
             </button>
-            <h5 class="mb-2 text-[26px] font-medium text-[#252641] mt-5 leading-[180%]">
+            <h5 className="mb-2 text-[26px] font-medium text-gray-800 mt-5 leading-[180%]">
               Class adds $30 million to its balance sheet for a Zoom-friendly
               edtech solution
             </h5>
-            <p class="mb-4 text-xl text-neutral-600 mt-5 leading-[180%]">
+            <p className="mb-4 text-xl text-neutral-600 mt-5 leading-[180%]">
               Class, launched less than a year ago by Blackboard co-founder
               Michael Chasen, integrates exclusively...
             </p>
-            <a class="text-xl text-neutral-500 mt-7 underline" href="..">
+            <a className="text-xl text-neutral-500 mt-7 underline" href="..">
               Read more
             </a>
           </div>
@@ -50,7 +50,7 @@ const Card = ({ cards }) => {
                   }}
                   className="h-[300px] md:h-[200px] w-full rounded-3xl col-span-4 flex items-end justify-end p-5"
                 >
-                  <button className="bg-[#49BBBD] h-[34px] flex items-center text-white px-4 rounded-full">
+                  <button className="bg-teal-400 h-[34px] flex items-center text-white px-4 rounded-full">
                     {card.buttonText}
                   </button>
                 </div>

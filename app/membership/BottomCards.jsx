@@ -13,12 +13,12 @@ function BottomCards() {
           <h2 className="card-title font-bold text-[26px] my-4">
             Become a Teacher
           </h2>
-          <p className="text-[#696984] leading-[180%] text-xl">
+          <p className="text-gray-800 leading-[180%] text-xl">
             Class, launched less than a year ago by Blackboard co-founder
             Michael Chasen, integrates exclusively...
           </p>
           <div className="card-actions justify-end mt-12">
-            <button className="btn btn-primary float-right bg-[#49BBBD] rounded-xl  text-white  w-[245px] h-[63px] ">
+            <button className="btn btn-primary float-right bg-teal-400 rounded-xl  text-white  w-[245px] h-[63px] ">
               Apply as a Teacher
             </button>
           </div>
@@ -35,12 +35,12 @@ function BottomCards() {
           <h2 className="card-title font-bold text-[26px] my-4">
             Become a Coursector
           </h2>
-          <p className="text-[#696984] leading-[180%] text-xl">
+          <p className="text-gray-800 leading-[180%] text-xl">
             Class, launched less than a year ago by Blackboard co-founder
             Michael Chasen, integrates exclusively...
           </p>
           <div className="card-actions justify-end mt-12">
-            <button className="btn btn-primary float-right bg-[#49BBBD] rounded-xl  text-white  w-[245px] h-[63px] ">
+            <button className="btn btn-primary float-right bg-teal-400 rounded-xl  text-white  w-[245px] h-[63px] ">
               Apply as a Coursector
             </button>
           </div>

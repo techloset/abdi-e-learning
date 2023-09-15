@@ -3,7 +3,7 @@ import React from "react";
 function OnlineCoaching() {
   return (
     <section>
-      <div className="bg-[#252641] text-white flex flex-col justify-center  px-6 md:px-0 h-[459px] md:mx-16 mx-6 mb-[90px] 2xl:mx-[120px] rounded-[37px] ">
+      <div className="bg-gray-800 text-white flex flex-col justify-center  px-6 md:px-0 h-[459px] md:mx-16 mx-6 mb-[90px] 2xl:mx-[120px] rounded-[37px] ">
         <br />
         <br />
         <h1 className="xl:text-4xl lg:text-3xl md:text-2xl text-xl font-semibold text-center">
@@ -17,7 +17,7 @@ function OnlineCoaching() {
         </p>{" "}
         <br />
         <br />
-        <button className="bg-[#49BBBD] w-[236px] h-[63px] rounded-xl mx-auto">
+        <button className="bg-teal-400 w-[236px] h-[63px] rounded-xl mx-auto">
           Start learning now
         </button>
         <br />

@@ -33,7 +33,7 @@ function Choice() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 my-auto h-6 text-[#5B72EE] "
+          className="w-6 my-auto h-6 text-indigo-500 "
         >
           <path
             strokeLinecap="round"
@@ -56,7 +56,7 @@ function Choice() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 my-auto h-6 text-[#9DCCFF] "
+          className="w-6 my-auto h-6 text-indigo-300 "
         >
           <path
             strokeLinecap="round"
@@ -79,7 +79,7 @@ function Choice() {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 my-auto h-6 text-[#00CBB8] "
+          className="w-6 my-auto h-6 text-teal-500 "
         >
           <path
             stroke-linecap="round"
@@ -102,7 +102,7 @@ function Choice() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 my-auto h-6 text-[#F48C06] "
+          className="w-6 my-auto h-6 text-orange-600 "
         >
           <path
             strokeLinecap="round"
@@ -125,7 +125,7 @@ function Choice() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 my-auto h-6 text-[#EE645B] "
+          className="w-6 my-auto h-6 text-red-500 "
         >
           <path
             strokeLinecap="round"
@@ -148,7 +148,7 @@ function Choice() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-6 my-auto h-6 text-[#252641] "
+          className="w-6 my-auto h-6 text-gray-800 "
         >
           <path
             strokeLinecap="round"
@@ -171,7 +171,7 @@ function Choice() {
           viewBox="0 0 24 24"
           stroke-width="1.5"
           stroke="currentColor"
-          class="w-6 my-auto h-6 text-[#00CBB8] "
+          className="w-6 my-auto h-6 text-teal-500 "
         >
           <path
             stroke-linecap="round"
@@ -202,7 +202,7 @@ function Choice() {
                   className="shadow-lg flex flex-col text-center p-5 2xl:p-0 justify-center items-center gap-10 rounded-xl 2xl:w-[349px] 2xl:h-[377px]"
                 >
                   <div
-                    className="w-[90px] h-[90px] text-center flex justify-center rounded-md self-center mx-auto text-[#49BBBD]  "
+                    className="w-[90px] h-[90px] text-center flex justify-center rounded-md self-center mx-auto text-teal-400  "
                     style={{ backgroundColor: `${item.color}` }}
                   >
                     {item.svg}
@@ -210,7 +210,7 @@ function Choice() {
 
                   <h1 className="font-bold text-3xl ">{item.title}</h1>
 
-                  <p className="text-[#696984] text-lg">{item.description}</p>
+                  <p className="text-gray-600 text-lg">{item.description}</p>
                 </div>
               );
             })}

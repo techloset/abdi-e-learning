@@ -18,7 +18,7 @@ function Header() {
                 placeholder="Search your favourite course"
                 className="w-full h-14 pl-1 sm-pl-6 md:pl-[34px] py-[21px] border  sm:text-xl text-sm border-none focus:outline-none"
               />
-              <button className="lg:text-2xl text-sm font-bold w-[183px] h-5/6 md:h-[63px] my-1 md:my-0 bg-[#49BBBD] text-white rounded-md">
+              <button className="lg:text-2xl text-sm font-bold w-[183px] h-5/6 md:h-[63px] my-1 md:my-0 bg-teal-400 text-white rounded-md">
                 Search
               </button>
             </div>

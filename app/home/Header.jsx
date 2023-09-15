@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "../components/home/Navbar";
 import Image from "next/image";
 
 function Header() {
@@ -24,42 +24,21 @@ function Header() {
               TOTC is an interesting platform that will teach you in more an
               interactive way
             </p>
-            <div className="flex flex-col xl:flex-row text-center center mt-[52px]">
+            <div className="flex flex-col xl:flex-row text-center gap-6 center mt-[52px] items-center">
               <button
                 href="#"
-                className="text-white rounded-full text-xl w-2/3`` xl:text-2xl px-6  2xl:px-10 py-4 font-semibold bg-[#83d0d2] "
+                className="text-white rounded-full text-xl w-[220px] h-[80px] xl:text-2xl font-semibold bg-teal-300 "
               >
                 Join for free
               </button>
-              <button className=" mx-auto mt-4 xl:mt-0 xl:mx-8 w-12 2xl:hidden h-12 bg-white rounded-full text-center ">
-                <svg
-                  className="h-4 w-12 text-[#23BDEE]  justify-center"
-                  viewBox="0 0 24 24"
-                  fill="#23BDEE"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  {" "}
-                  <polygon points="5 3 19 12 5 21 5 3" />
-                </svg>
+              <button>
+                <img
+                  src="/images/playBtn.png"
+                  className="mx-auto h-[80px]"
+                  alt=""
+                />
               </button>
-              <button className="mx-8 bg-white hidden 2xl:block rounded-full">
-                <svg
-                  className="h-8 w-16 text-[#23BDEE]  "
-                  viewBox="0 0 24 24"
-                  fill="#23BDEE"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  {" "}
-                  <polygon points="5 3 19 12 5 21 5 3" />
-                </svg>
-              </button>
-              <div className="mt-4">
+              <div>
                 <p className="text-center text-xl  xl:text-2xl">
                   Watch how it works
                 </p>
@@ -73,14 +52,8 @@ function Header() {
               className="h-[800px] -mt-[80px]"
             />
           </div>
-          <div className="hidden 2xl:block mt-2 2xl:w-[862px] 2xl:h-[900px] ">
-            <Image
-              src="/images/imageGirl.png"
-              width={914}
-              height={881}
-              alt="girl"
-              className="h-full w-full"
-            />
+          <div className="hidden 2xl:block mt-1 2xl:w-[862px] 2xl:h-[900px] ">
+            <img src="/images/imageGirl.png" className="h-full w-full" alt="" />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 function WhatOur() {
   return (
     <section>
-      <div className="bg-[#9DCCFF] bg-opacity-20 pb-[80px]">
+      <div className="bg-indigo-300 bg-opacity-20 pb-[80px]">
         <div className="xl:mx-28 lg:mx-16 2xl:mx-[139px]  mx-6">
           <p className="lg:text-3xl text-2xl font-semibold py-[70px]">
             What our students have to say
@@ -15,7 +15,7 @@ function WhatOur() {
 
               <p className="lg:text-2xl mb-[19px]">tanya.hill@example.com</p>
 
-              <p className="text-[#696984] text-[18px] mb-[31px] leading-[180%]">
+              <p className="text-gray-600 text-[18px] mb-[31px] leading-[180%]">
                 Lorem ipsum dolor sit amet, consectetur adipising elit,
                 <br /> sed do eiusmod tempor <br />
                 Lorem ipsum dolor sit amet, consectetur adipising elit,

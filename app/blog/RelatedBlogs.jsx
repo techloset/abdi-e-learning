@@ -24,13 +24,13 @@ function RelatedBlogs() {
   return (
     <>
       {/* =================================related blog================================== */}
-      <div className="bg-[#9DCCFF] bg-opacity-20 ">
+      <div className="bg-indigo-300 bg-opacity-20 ">
         <div className="lg:mx-16 mx-6 xl:mx-20">
           <div className="flex justify-between  pt-[93px]">
             <div className="font-medium text-xl md:text-[30px]">
               Related Blog
             </div>
-            <div className="text-[#49BBBD] text-[20px] font-bold">See all</div>
+            <div className="text-teal-400 text-[20px] font-bold">See all</div>
           </div>
 
           {/* two cards design  */}
@@ -66,7 +66,7 @@ function RelatedBlogs() {
                   </p>
 
                   <div className="flex items-center justify-between">
-                    <button className="underline text-[#696984] text-xl">
+                    <button className="underline text-gray-600 text-xl">
                       Read More
                     </button>
                     <div className="text-gray-600">
@@ -82,37 +82,11 @@ function RelatedBlogs() {
           </div>
 
           <div className="flex justify-end mt-[73px] pb-[66px]">
-            <button className="bg-[#58babb] bg-opacity-70 hover:bg-[#49BBBD80] text-white py-2 px-4 rounded font-bold mr-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={3.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M15.75 19.5L8.25 12l7.5-7.5"
-                />
-              </svg>
+            <button className="bg-teal-400 bg-opacity-70 hover:bg-teal-600 text-white py-2 px-4 rounded font-bold mr-2">
+              <img src="/images/leftArrow.png" alt="" />
             </button>
-            <button className="bg-[#49BBBD] hover:bg-[#49BBBD80] text-white py-2 px-4 rounded font-bold">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={3.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                />
-              </svg>
+            <button className="bg-teal-400 hover:bg-teal-600 text-white py-2 px-4 rounded font-bold">
+              <img src="/images/leftArrow.png" alt="" className="rotate-180" />
             </button>
           </div>
         </div>

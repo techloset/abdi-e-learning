@@ -47,28 +47,28 @@ export default function RealCreators() {
           <p className="lg:text-3xl font-semibold">
             Classes taught by real creators
           </p>
-          <p className="text-[#49BBBD] font-semibold ">See all</p>
+          <p className="text-teal-400 font-semibold ">See all</p>
         </div>
       </div>
       <div>
         <div className="grid 2xl:grid-cols-3 md:grid-cols-2  mt-[188px] gap-y-36  gap-x-6  mx-8 lg:mx-20">
           {creators.map((card) => {
             return (
-              <div class="shadow-md relative flex flex-col items-end justify-end mx-auto h-[300px] lg:w-[400px] xl:w-[430px] sm:w-[350px] w-[300px] ">
-                <div class="bg-white py-5 px-6">
-                  <h2 class="text-2xl text-center font-semibold mb-4 leading-[180%]">
+              <div className="shadow-md relative flex flex-col items-end justify-end mx-auto h-[300px] lg:w-[400px] xl:w-[430px] sm:w-[350px] w-[300px] ">
+                <div className="bg-white py-5 px-6">
+                  <h2 className="text-2xl text-center font-semibold mb-4 leading-[180%]">
                     {card.name}
                   </h2>
-                  <p className="text-center text-lg text-[#696984] leading-[180%]">
+                  <p className="text-center text-lg text-gray-600 leading-[180%]">
                     {card.profession}
                   </p>
                 </div>
 
-                <div class="absolute inset-x-0 -top-1/3 flex justify-center">
+                <div className="absolute inset-x-0 -top-1/3 flex justify-center">
                   <img
                     src={card.img}
                     alt="Imagme"
-                    class="w-[258px] h-[230px] border-white"
+                    className="w-[258px] h-[230px] border-white"
                   />
                 </div>
               </div>

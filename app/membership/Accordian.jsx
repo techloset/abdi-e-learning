@@ -33,15 +33,15 @@ function Accordian() {
           <div key={index} className="border-b border-gray-300 rounded mb-4">
             <div className="flex items-center justify-between py-4 cursor-pointer">
               <div className="flex">
-                <div className="w-5 h-5 bg-[#55EFC4] rounded-full mr-5 "></div>
-                <h2 className="text-lg font-semibold text-[#2D3436]">
+                <div className="w-5 h-5 bg-teal-400 rounded-full mr-5 "></div>
+                <h2 className="text-lg font-semibold text-gray-800">
                   {question.question}
                 </h2>
               </div>
               <img src="/images/navArrow.png" alt="" />
             </div>
             <div className="p-4">
-              <p className="text-[#696984] max-w-[1634px] tracking-wide text-sm leading-[180%]">
+              <p className="text-gray-600 max-w-[1634px] tracking-wide text-sm leading-[180%]">
                 {question.answer}
               </p>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Header from "./Header";
-import Card from "./components/Card";
+import Card from "../components/search/Card";
 import KnowAbout from "./KnowAbout";
 import Marketing from "./Marketing";
 import RealCreators from "./RealCreators";

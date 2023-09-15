@@ -9,7 +9,7 @@ function TopEdu() {
           <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
             Top Education offers and deals are listed here
           </div>
-          <div className="text-[#49BBBD] text-[20px] font-bold hidden md:block">
+          <div className="text-teal-400 text-[20px] font-bold hidden md:block">
             See all
           </div>
         </div>
@@ -22,11 +22,11 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
-                <button className=" text-white bg-[#49BBBD] h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
+                <button className=" text-white bg-teal-400 h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
                   50%
                 </button>{" "}
                 <h4 className=" font-semibold text-[28px]  text-white">
@@ -49,11 +49,11 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
-                <button className=" text-white bg-[#49BBBD] h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
+                <button className=" text-white bg-teal-400 h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
                   10%
                 </button>{" "}
                 <h4 className=" font-semibold text-[28px]  text-white">
@@ -76,11 +76,11 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
-                <button className=" text-white bg-[#49BBBD] h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
+                <button className=" text-white bg-teal-400 h-[126px] w-[124px]   rounded-lg  mb-7 text-[50px] font-bold  ">
                   50%
                 </button>{" "}
                 <h4 className=" font-semibold text-[28px]  text-white">

@@ -6,14 +6,14 @@ function ClassManagement() {
       {/* ----------------------------------------------------------class management -------------------------------------------------------------- */}
       <div className="grid lg:grid-cols-2  gap-10 mx-6 lg:mx-[186px] mt-20 lg:mt-40">
         <div className="mx-4 my-auto p-4 hidden lg:block">
-          <h1 className="text-[#00CBB8] text-2xl leading-[160%] xl:text-[40px] font-semibold">
+          <h1 className="text-teal-500 text-2xl leading-[160%] xl:text-[40px] font-semibold">
             Class Management <br />
-            <span className="text-[#2F327D] ">Tools for Educators </span>{" "}
+            <span className="text-purple-900 ">Tools for Educators </span>{" "}
           </h1>
           <br />
           <br />
 
-          <p className="max-w-[645px] text-[22px] text-[#696984] leading-[180%] tracking-[0.44px]">
+          <p className="max-w-[645px] text-[22px] text-gray-600 leading-[180%] tracking-[0.44px]">
             Class provides tools to help run and manage the class such as Class
             Roster, Attendance, and more. With the Gradebook, teachers can
             review and grade tests and quizzes in real-time.

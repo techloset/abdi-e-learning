@@ -40,7 +40,7 @@ function ReadingBlog() {
               }}
             >
               <div className="">
-                <button className="text-2xl mb-8 bg-[#FFFFFF] bg-opacity-70 text-black rounded-xl py-2 px-12  h-14 w-56 text-center justify-center mx-auto  font-bold">
+                <button className="text-2xl mb-8 bg-white bg-opacity-70 text-black rounded-xl py-2 px-12  h-14 w-56 text-center justify-center mx-auto  font-bold">
                   {val.title}
                 </button>
               </div>

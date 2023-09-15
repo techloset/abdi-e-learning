@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../blog/components/Card";
+import Card from "../components/blog/Card";
 
 function GetChoice() {
   return (
@@ -9,7 +9,7 @@ function GetChoice() {
           <div className="font-medium text-xl md:text-[30px]  ">
             Get choice of your course
           </div>
-          <div className="text-[#49BBBD] text-[20px] font-bold  hidden md:block">
+          <div className="text-teal-400 text-[20px] font-bold  hidden md:block">
             See all
           </div>
         </div>
