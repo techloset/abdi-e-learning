@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function LoginPage() {
@@ -28,7 +29,7 @@ function LoginPage() {
               Login
             </div>
             <div className="px-10 py-2 rounded[33px] text-white text-base font-normal">
-              Register
+              <Link href="/auth/register">Register</Link>
             </div>
           </div>
         </div>

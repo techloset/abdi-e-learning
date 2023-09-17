@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function RegisterPage() {
@@ -25,7 +26,7 @@ export default function RegisterPage() {
           </div>
           <div className="w-[315px] md:w-[329px] h-[59px] mt-6 flex justify-around items-center bg-teal-400 bg-opacity-60 rounded-[33px]">
             <div className=" px-10 py-2 text-white text-base font-medium">
-              Login
+              <Link href="/auth/login">Login</Link>
             </div>
             <div className="bg-teal-400 rounded-[33px] px-10 py-2 rounded[33px] text-white text-base font-normal">
               Register

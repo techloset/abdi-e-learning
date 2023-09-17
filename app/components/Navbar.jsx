@@ -38,7 +38,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/membership"
                 class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
               >
                 Pricing

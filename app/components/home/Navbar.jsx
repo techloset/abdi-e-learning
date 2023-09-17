@@ -16,7 +16,7 @@ function Navbar() {
               </Link>
             </li>
             <li class="block">
-              <a class="flex items-center hover:text-gray-300" href="#">
+              <a class="flex items-center hover:text-gray-300" href="/course">
                 Courses
               </a>
             </li>
@@ -36,11 +36,11 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <button className="ms-20 w-40 h-16 bg-white rounded-[80px] shadow-md text-gray-700 text-xl not-italic font-medium hidden 2xl:block">
-            Login
+          <button className="ms-20 w-40 h-16 bg-white rounded-[80px] shadow-md hover:bg-slate-300 text-gray-700 text-xl not-italic font-medium hidden 2xl:block">
+            <Link href="/auth/login">Login</Link>
           </button>
-          <button className="ms-[26px] w-40 h-16 bg-[#FFFFFF4D] rounded-[80px] shadow-md text-white text-xl not-italic font-medium hidden 2xl:block">
-            Sign Up
+          <button className="ms-[26px] w-40 h-16 bg-[#FFFFFF4D] rounded-[80px] shadow-md hover:bg-teal-400 text-white text-xl not-italic font-medium hidden 2xl:block">
+            <Link href="/auth/register">Sign Up</Link>
           </button>
         </div>
 
