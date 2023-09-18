@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/blog/Card";
+import Link from "next/link";
 
 function GetChoice() {
   return (
@@ -10,7 +11,7 @@ function GetChoice() {
             Get choice of your course
           </div>
           <div className="text-teal-400 text-[20px] font-bold  hidden md:block">
-            See all
+            <Link href="/course/detail">See all</Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../components/courseDetail/Card";
+import Card from "../../components/courseDetail/Card";
 
 function Marketing() {
   return (

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function RelatedBlogs() {
@@ -67,7 +68,7 @@ function RelatedBlogs() {
 
                   <div className="flex items-center justify-between">
                     <button className="underline text-gray-600 text-xl">
-                      Read More
+                      <Link href="/blog/detail">Read More</Link>
                     </button>
                     <div className="text-gray-600">
                       <div className="flex gap-2">

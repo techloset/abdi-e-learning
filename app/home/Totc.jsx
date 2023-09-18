@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Totc = () => {
@@ -44,7 +45,7 @@ const Totc = () => {
             </h2>
             <br />
             <button className="text-[22px] rounded-full px-9 py-6   text-white bg-[#23BDEEE5]">
-              Enter access code
+              <Link href="/search">Enter access code</Link>
             </button>
           </div>
         </div>

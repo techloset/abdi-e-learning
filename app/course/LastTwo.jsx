@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../components/blog/Card";
+import Link from "next/link";
 
 function LastTwo() {
   return (
@@ -11,7 +12,7 @@ function LastTwo() {
               The course in personal development
             </div>
             <div className="text-teal-400 text-[20px] font-bold hidden md:block">
-              See all
+              <Link href="/course/detail">See all</Link>
             </div>
           </div>
         </div>

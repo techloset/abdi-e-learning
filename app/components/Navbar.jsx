@@ -22,10 +22,10 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/course"
                 class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
               >
-                About
+                Courses
               </a>
             </li>
             <li>
@@ -33,15 +33,7 @@ function Navbar() {
                 href="#"
                 class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
               >
-                Services
-              </a>
-            </li>
-            <li>
-              <a
-                href="/membership"
-                class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
-              >
-                Pricing
+                Careers
               </a>
             </li>
             <li>
@@ -49,7 +41,15 @@ function Navbar() {
                 href="#"
                 class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
               >
-                Contact
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="hidden lg:block hover:text-gray-300 py-2 pl-3 pr-4"
+              >
+                About Us
               </a>
             </li>
             <li className="flex items-center gap-2">

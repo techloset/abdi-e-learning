@@ -1,5 +1,6 @@
 import React from "react";
 import "./Explore.css";
+import Link from "next/link";
 
 function Explore() {
   return (
@@ -27,7 +28,9 @@ function Explore() {
             />
             Lorem ipsum
           </p>
-          <p className="text-teal-500 text-2xl font-bold">SEE ALL →</p>
+          <p className="text-teal-500 text-2xl font-bold">
+            <Link href="/meeting">SEE ALL →</Link>
+          </p>
         </div>
         {/* ========================================Top ================================= */}
         <div className="relative z-10 mt-12">
@@ -120,7 +123,9 @@ function Explore() {
             />
             Lorem ipsum
           </p>
-          <p className="text-teal-500 text-2xl font-bold">SEE ALL →</p>
+          <p className="text-teal-500 text-2xl font-bold">
+            <Link href="/meeting">SEE ALL →</Link>
+          </p>
         </div>
         {/* ========================================Middle ================================= */}
         <div className="relative z-10 mt-12">
@@ -212,7 +217,9 @@ function Explore() {
             />
             Lorem ipsum
           </p>
-          <p className="text-teal-500 text-2xl font-bold">SEE ALL →</p>
+          <p className="text-teal-500 text-2xl font-bold">
+            <Link href="/meeting">SEE ALL →</Link>
+          </p>
         </div>
         {/* ========================================Bottom ================================= */}
         <div className="relative z-10 mt-12">

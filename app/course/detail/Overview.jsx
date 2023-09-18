@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Overview() {
@@ -154,7 +155,7 @@ function Overview() {
           </p>
 
           <button className="bg-teal-400 w-full text-white text-center py-3 my-[30px]  text-[20px]  font-semibold rounded-2xl">
-            Buy Now
+            <Link href="/checkout">Buy Now</Link>
           </button>
 
           <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 my-[39px]" />

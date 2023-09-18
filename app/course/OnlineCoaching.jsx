@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function OnlineCoaching() {
@@ -18,7 +19,7 @@ function OnlineCoaching() {
         <br />
         <br />
         <button className="bg-teal-400 w-[236px] h-[63px] rounded-xl mx-auto">
-          Start learning now
+          <Link href="/course/detail">Start learning now</Link>
         </button>
         <br />
         <br /> <br />

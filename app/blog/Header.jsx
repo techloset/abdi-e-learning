@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Header() {
@@ -25,7 +26,7 @@ function Header() {
           </p>
           <br />
           <button className="bg-teal-400 text-white rounded-2xl px-11 py-4 text-base font-bold">
-            Start learning now
+            <Link href="/blog/detail">Start learning now</Link>
           </button>
         </div>
         <div className="lg:mt-4 xl:mt-0">
