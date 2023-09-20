@@ -8,7 +8,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "buenos-aires": ["AOK Buenos Aires", "sans-serif"],
+        "buenos-aires": ["Buenos Aires", "sans-serif"],
+        "buenos-airesLight": ["Buenos Aires Light", "sans-serif"],
+        "buenos-airesBold": ["Buenos Aires Bold", "sans-serif"],
+        "nunito-sans": ["var(--font-nunito)"],
+        "roboto-imp": ["var(--font-roboto)"],
+      },
+      boxShadow: {
+        "success-box": ["0px 10px 60px 0px rgba(38, 45, 118, 0.08)"],
       },
     },
   },

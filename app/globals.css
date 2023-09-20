@@ -1,6 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
-@import url('https://fonts.cdnfonts.com/css/aok-buenos-aires');
 
+@font-face {
+    font-family: 'Buenos Aires';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Buenos Aires'), local('Buenos-Aires'), url('/font/BuenosAires.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'Buenos Aires Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Buenos Aires Light'), local('Buenos-Aires-Light'), url('/font/BuenosAires-Light.woff2') format('truetype');
+}
+@font-face {
+    font-family: 'Buenos Aires Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Buenos Aires Bold'), local('Buenos-Aires-Bold'), url('/font/BuenosAires-Bold.woff2') format('truetype');
+}
 
 @tailwind base;
 @tailwind components;

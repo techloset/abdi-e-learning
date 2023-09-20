@@ -14,20 +14,20 @@ function Header() {
       >
         <Navbar />
 
-        <div className=" flex flex-col 2xl:flex-row lg:mx-12 mt-[110px]">
-          <div className="px-4 sm:px-4 md:px-9  2xl:mt-16  mx-auto mb-8 md:mb-24 xl:mb-0">
-            <h1 className=" text-4xl 2xl:text-[54px] text-white font-bold leading-[140%] mb-[34px] xl:w-[681px]">
+        <div className=" flex flex-col 2xl:flex-row justify-between lg:mx-12 2xl:mx-[140px] mt-[110px]">
+          <div className="2xl:mt-16 mb-8 md:mb-24 xl:mb-0 mx-auto 2xl:mx-0">
+            <h1 className=" text-4xl 2xl:text-[54px] text-white font-black leading-[140%] mb-[34px] xl:w-[681px]">
               <span className="text-orange-400">Studying</span> online is now
               much easier
             </h1>
-            <p className="text-white xl:w-[523px] leading-[160%] text-xl xl:text-2xl font-sans font-normal">
+            <p className="text-white xl:w-[523px] leading-[160%] text-2xl font-sans font-normal">
               TOTC is an interesting platform that will teach you in more an
               interactive way
             </p>
             <div className="flex flex-col xl:flex-row text-center gap-6 center mt-[52px] items-center">
               <button
                 href="#"
-                className="text-white rounded-full text-xl w-[220px] h-[80px] xl:text-2xl font-semibold bg-teal-300 "
+                className="text-white rounded-full text-xl w-[220px] h-[80px] xl:text-2xl font-semibold bg-[#fff] bg-opacity-30"
               >
                 Join for free
               </button>

@@ -9,7 +9,7 @@ function Navbar() {
           <img src="/images/homeLogo.png" class="h-20" alt="Logo" />
         </a>
         <div className="flex items-center pt-2 lg:pt-[30px]">
-          <ul class="hidden gap-20 lg:flex items-end text-xl not-italic font-normal text-white">
+          <ul class="hidden gap-20 lg:flex items-end text-[22px] not-italic font-normal text-white">
             <li class="block">
               <Link class="flex items-center hover:text-gray-300" href="/">
                 Home
@@ -36,10 +36,10 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          <button className="ms-20 w-40 h-16 bg-white rounded-[80px] shadow-md hover:bg-slate-300 text-gray-700 text-xl not-italic font-medium hidden 2xl:block">
+          <button className="ms-20 w-40 h-[60px] bg-white rounded-[80px] shadow-md hover:bg-slate-300 text-gray-700 text-xl not-italic font-medium hidden 2xl:block">
             <Link href="/auth/login">Login</Link>
           </button>
-          <button className="ms-[26px] w-40 h-16 bg-[#FFFFFF4D] rounded-[80px] shadow-md hover:bg-teal-400 text-white text-xl not-italic font-medium hidden 2xl:block">
+          <button className="ms-[26px] w-40 h-[60px] bg-[#FFFFFF4D] rounded-[80px] shadow-md hover:bg-teal-400 text-white text-xl not-italic font-medium hidden 2xl:block">
             <Link href="/auth/register">Sign Up</Link>
           </button>
         </div>
