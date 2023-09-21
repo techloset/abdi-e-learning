@@ -80,7 +80,7 @@ const Success = () => {
         </p>
 
         <div className=" items-center justify-center text-gray-500   bg-white ">
-          <div className="relative grid  xl:grid-cols-3 gap-24 lg:gap-[60px] mt-[180px]">
+          <div className="relative flex flex-wrap gap-24 lg:gap-[60px] mt-[180px]">
             {successPoints.map((value, index) => (
               <div
                 key={index}

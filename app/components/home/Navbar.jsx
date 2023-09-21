@@ -9,7 +9,7 @@ function Navbar() {
           <img src="/images/homeLogo.png" class="h-20" alt="Logo" />
         </a>
         <div className="flex items-center pt-2 lg:pt-[30px]">
-          <ul class="hidden gap-20 lg:flex items-end text-[22px] not-italic font-normal text-white">
+          <ul class="hidden gap-10 xl:gap-20 lg:flex items-end text-[22px] not-italic font-normal text-white">
             <li class="block">
               <Link class="flex items-center hover:text-gray-300" href="/">
                 Home

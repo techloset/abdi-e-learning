@@ -3,9 +3,9 @@ import React from "react";
 export default function Testimonial() {
   return (
     <section>
-      <div className="flex flex-col xl:flex-row mx-5 justify-between lg:mx-[0px] mt-32 2xl:ps-[160px] 2xl:pe-[180px]">
+      <div className="flex flex-wrap  gap-6 mx-5 justify-between lg:mx-10 mt-32 2xl:ms-[205px] 2xl:me-[201px]">
         {/* what they say */}
-        <div className="mx-5 lg:mx-16">
+        <div className="left">
           <div className="flex">
             <img src="/images/line.png" alt="" className="py-4" />
             <p className="text-xl ms-[30px] text-[#525596] font-nunito-sans tracking-[4px]">
@@ -17,12 +17,12 @@ export default function Testimonial() {
             What They Say?
           </h1>
 
-          <p className="text-grey-600 !leading-[160%] text-[26px] mt-[29px] 2xl:w-[607px]">
+          <p className="text-grey-600 !leading-[160%] text-[26px] mt-[29px] 2xl:max-w-[607px]">
             TOTC has got more than 100k positive ratings from our users around
             the world.
           </p>
 
-          <p className="text-grey-600 !leading-[160%] text-[26px] mt-7 2xl:w-[573px]">
+          <p className="text-grey-600 !leading-[160%] text-[26px] mt-7 2xl:max-w-[573px]">
             Some of the students and teachers were greatly helped by the
             Skilline.
           </p>
@@ -39,16 +39,16 @@ export default function Testimonial() {
           </button>
         </div>
         {/* testimonial review */}
-        <div>
+        <div className="right xl:max-w-[690px] mx-auto 2xl:mx-0">
           {/* girl with books in hand */}
           <img
             src="/images/testitest.png"
-            className="xl:absolute mx-auto mt-6 2xl:-ms-20"
+            className="xl:absolute mx-auto mt-6 2xl:-ms-[55px]"
             alt=""
           />
 
           {/* testimonial */}
-          <div className="pt-[41px] px-[59px] font-nunito-sans hidden xl:block z-10 transform lg:mt-[500px] ml-[10px]  lg:w-[600px] 2xl:w-[680px] 2xl:h-[329px]  bg-white border-red-500 border-l-[14px]  border-r-0 border-t-0 border-b-0 rounded-lg shadow">
+          <div className="pt-[41px] px-[59px] font-nunito-sans hidden xl:block z-10 transform lg:mt-[500px] ml-[10px]  xl:w-[500px] 2xl:w-full 2xl:h-[329px]  bg-white border-red-500 border-l-[14px]  border-r-0 border-t-0 border-b-0 rounded-lg shadow">
             <div className="flex my-auto">
               <img
                 src="/images/test_text.png"
