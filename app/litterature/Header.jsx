@@ -21,7 +21,7 @@ function Header() {
         <div className=" bg-white bg-opacity-80 p-5 md:p-8 xl:p-12 xl:w-[77%] rounded-[20px] mt-6 md:mt-0">
           <div className="flex flex-col md:flex-row  justify-between">
             <p className="text-3xl font-medium pt-4">John Anderson</p>
-            <button className="bg-teal-400 mt-4  md:mt-0 px-6 py-3 text-white text-2xl font-semibold rounded-xl ">
+            <button className="bg-light-teal mt-4  md:mt-0 px-6 py-3 text-white text-2xl font-semibold rounded-xl ">
               Enroll Now
             </button>
           </div>

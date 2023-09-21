@@ -17,7 +17,7 @@ const Card = () => {
 
   const Card = ({ img }) => {
     return (
-      <div className="bg-white rounded-xl 2xl:h-[617px] 2xl:w-[374px] shadow-xl p-6 mx-auto">
+      <div className="bg-white rounded-xl 2xl:h-[617px] 2xl:w-[374px] shadow-xl p-6 mx-auto lg:mx-0">
         <img
           className="  h-[238px] w-[400px]  rounded-xl"
           src={img}
@@ -56,7 +56,7 @@ const Card = () => {
 
           <div className="flex  ">
             <del className="mt-1 text-gray-600">$100</del>
-            <p className="text-2xl ml-3 text-teal-400 font-semibold ">$80</p>
+            <p className="text-2xl ml-3 text-light-teal font-semibold ">$80</p>
           </div>
         </div>
       </div>

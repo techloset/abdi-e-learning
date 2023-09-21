@@ -4,7 +4,7 @@ function Radar() {
   return (
     <section>
       <div className="md:mx-14 mx-6 lg:mx-20 xl:mx-[120px] pt-[80px] w-[1681px]">
-        <p className="font-semibold  text-[44px] text-purple-900 ">
+        <p className="font-semibold  text-[44px] text-normal-purple ">
           Why Swift UI Should Be on the Radar of Every Mobile Developer
         </p>
 
@@ -64,7 +64,7 @@ function Radar() {
               <p className="text-black text-lg not-italic font-medium">Lina</p>
             </div>
           </div>
-          <button className=" w-[150px] md:w-[232px] h-[49px] text-teal-400 font-semibold  border-teal-400 rounded-xl border">
+          <button className=" w-[150px] md:w-[232px] h-[49px] text-light-teal font-semibold  border-light-teal rounded-xl border">
             Follow
           </button>
         </div>

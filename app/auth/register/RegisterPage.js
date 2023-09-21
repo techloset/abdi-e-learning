@@ -3,7 +3,7 @@ import React from "react";
 
 export default function RegisterPage() {
   return (
-    <div className="flex items-center justify-center my-28 md:my-9 bg-white">
+    <div className="flex items-center justify-center my-[133px] md:my-9 bg-white">
       <div className="xl:w-[737px] xl:h-[825px] relative mx-auto hidden xl:block">
         <img
           className="w-[737px] h-[825px] left-0 top-0 absolute rounded-[29px]"
@@ -24,11 +24,11 @@ export default function RegisterPage() {
           <div className="text-center text-black text-base font-normal">
             Welcome to lorem..!
           </div>
-          <div className="w-[315px] md:w-[329px] h-[59px] mt-6 flex justify-around items-center bg-teal-400 bg-opacity-60 rounded-[33px]">
+          <div className="w-[315px] md:w-[329px] h-[59px] mt-6 flex justify-around items-center bg-light-teal bg-opacity-60 rounded-[33px]">
             <div className=" px-10 py-2 text-white text-base font-medium">
               <Link href="/auth/login">Login</Link>
             </div>
-            <div className="bg-teal-400 rounded-[33px] px-10 py-2 rounded[33px] text-white text-base font-normal">
+            <div className="bg-light-teal rounded-[33px] px-10 py-2 rounded[33px] text-white text-base font-normal">
               Register
             </div>
           </div>
@@ -42,7 +42,7 @@ export default function RegisterPage() {
           <input
             type="email"
             placeholder="Enter your Email Address"
-            className="pt-[15px] pb-[16px] ps-[31px] mt-3 block w-[318px] md:w-[435px] bg-white rounded-[40px] border border-teal-400 bg-transparent text-neutral-400 text-[15px] font-normal"
+            className="pt-[15px] pb-[16px] ps-[31px] mt-3 block w-[318px] md:w-[435px] bg-white rounded-[40px] border border-light-teal bg-transparent text-neutral-400 text-[15px] font-normal"
           />
         </div>
         <div className="form-group mt-[30px]">
@@ -50,19 +50,26 @@ export default function RegisterPage() {
           <input
             type="text"
             placeholder="Enter your User name"
-            className="pt-[15px] pb-[16px] ps-[31px] mt-3 block w-[318px] md:w-[435px] bg-white rounded-[40px] border border-teal-400 bg-transparent text-neutral-400 text-[15px] font-normal"
+            className="pt-[15px] pb-[16px] ps-[31px] mt-3 block w-[318px] md:w-[435px] bg-white rounded-[40px] border border-light-teal bg-transparent text-neutral-400 text-[15px] font-normal"
           />
         </div>
         <div className="form-group mt-[30px]">
           <label className=" text-black font-light">Password</label>
-          <input
-            type="password"
-            placeholder="Enter your Password"
-            className="pt-[15px] pb-[16px] ps-[31px] mt-3 block w-[318px] md:w-[435px] bg-white rounded-[40px] border border-teal-400 bg-transparent text-neutral-400 text-[15px] font-normal"
-          />
+          <div className="flex justify-between pt-[15px] pb-[16px] ps-[31px] pe-6 mt-3 w-[318px] md:w-[435px] bg-white rounded-[40px] border border-light-teal bg-transparent text-neutral-400 text-[15px] font-normal">
+            <input
+              type="password"
+              placeholder="Enter your Password"
+              className="focus:outline-none"
+            />
+            <img
+              src="/images/icons/invisibleEye.png"
+              alt=""
+              className="h-[18px] w-[14px]"
+            />
+          </div>
         </div>
         <div className="btn mt-[52px] md:mt-[55px] ms-auto me-4">
-          <button className="w-[232px] h-[49px] bg-teal-400 rounded-[36px]">
+          <button className="w-[232px] h-[49px] bg-light-teal text-white rounded-[36px]">
             Register
           </button>
         </div>

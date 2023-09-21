@@ -9,7 +9,7 @@ function Marketing() {
           <div className="font-medium text-xl md:text-[30px]  ">
             Marketing Articles
           </div>
-          <div className="text-teal-400 text-[20px] font-bold">See all</div>
+          <div className="text-light-teal text-[20px] font-bold">See all</div>
         </div>
       </div>
       <Card />

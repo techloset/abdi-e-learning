@@ -1,9 +1,10 @@
-import { Poppins, Nunito_Sans, Roboto } from "next/font/google";
+import { Poppins, Nunito_Sans, Roboto, Inter } from "next/font/google";
 import "./globals.css";
 
 const poppins = Poppins({
   weight: ["400"],
   subsets: ["latin"],
+  variable: "--font-poppins",
 });
 const nunito = Nunito_Sans({
   subsets: ["latin"],
@@ -13,6 +14,10 @@ const roboto = Roboto({
   subsets: ["latin"],
   weight: "400",
   variable: "--font-roboto",
+});
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata = {
@@ -24,7 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.className} ${nunito.variable} ${roboto.variable}`}
+        className={`${poppins.className} ${nunito.variable} ${roboto.variable} ${inter.variable} ${poppins.variable}`}
       >
         {children}
       </body>

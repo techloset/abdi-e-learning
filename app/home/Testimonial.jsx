@@ -13,25 +13,25 @@ export default function Testimonial() {
             </p>
           </div>
 
-          <h1 className="text-6xl font-bold font-nunito-sans text-[#2F327D] mt-8">
+          <h1 className="text-6xl font-bold font-nunito-sans text-normal-purple mt-8">
             What They Say?
           </h1>
 
-          <p className="text-[#696984] !leading-[160%] text-[26px] mt-[29px] 2xl:w-[607px]">
+          <p className="text-grey-600 !leading-[160%] text-[26px] mt-[29px] 2xl:w-[607px]">
             TOTC has got more than 100k positive ratings from our users around
             the world.
           </p>
 
-          <p className="text-[#696984] !leading-[160%] text-[26px] mt-7 2xl:w-[573px]">
+          <p className="text-grey-600 !leading-[160%] text-[26px] mt-7 2xl:w-[573px]">
             Some of the students and teachers were greatly helped by the
             Skilline.
           </p>
 
-          <p className="text-[#696984] !leading-[160%] text-[26px] mt-10">
+          <p className="text-grey-600 !leading-[160%] text-[26px] mt-10">
             Are you too? Please give your assessment
           </p>
 
-          <button className="text-[#49BBBD] flex mt-10 ps-7 items-center md:text-[22px] lg:text-[20px] xl:text-[22px]  font-semibold xl:text-base 2xl:text-[22px] border-[#49BBBD]  rounded-full border ">
+          <button className="text-light-teal flex mt-10 ps-7 items-center md:text-[22px] lg:text-[20px] xl:text-[22px]  font-semibold xl:text-base 2xl:text-[22px] border-light-teal  rounded-full border ">
             Write your assessment
             <div className="btnArrow ps-7">
               <img src="/images/icons/btnArrow.png" alt="" />

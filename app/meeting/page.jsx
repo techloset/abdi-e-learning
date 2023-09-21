@@ -38,7 +38,7 @@ function page() {
           <div className=" bg-[white]  rounded-2xl p-5 max-w-[498px] min-h-[769px] 2xl:max-h-[769px]">
             <p className="text-3xl font-bold">Course Contents</p>
             <div className="flex justify-between mt-[30px]">
-              <p className="text-sm text-teal-400 ">2/5 COMPLETED</p>
+              <p className="text-sm text-light-teal ">2/5 COMPLETED</p>
               <img src="/images/calender.png" alt="" className="w-[25px]" />
             </div>
 
@@ -52,7 +52,7 @@ function page() {
                 data-te-target="#carouselExampleCaptions"
                 data-te-slide-to="0"
                 data-te-carousel-active
-                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-teal-400 bg-clip-padding p-0 -indent-[999px] transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-light-teal bg-clip-padding p-0 -indent-[999px] transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                 aria-current="true"
                 aria-label="Slide 1"
               ></button>
@@ -60,28 +60,28 @@ function page() {
                 type="button"
                 data-te-target="#carouselExampleCaptions"
                 data-te-slide-to="1"
-                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-teal-400 bg-clip-padding p-0 -indent-[999px] transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-light-teal bg-clip-padding p-0 -indent-[999px] transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                 aria-label="Slide 2"
               ></button>
               <button
                 type="button"
                 data-te-target="#carouselExampleCaptions"
                 data-te-slide-to="2"
-                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-teal-400 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-light-teal bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                 aria-label="Slide 3"
               ></button>
               <button
                 type="button"
                 data-te-target="#carouselExampleCaptions"
                 data-te-slide-to="2"
-                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-teal-400 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-light-teal bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                 aria-label="Slide 3"
               ></button>
               <button
                 type="button"
                 data-te-target="#carouselExampleCaptions"
                 data-te-slide-to="2"
-                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-teal-400 bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                className="mx-[3px] box-content h-[3px] w-[80px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-light-teal bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
                 aria-label="Slide 3"
               ></button>
             </div>
@@ -145,9 +145,9 @@ function page() {
 
             {/* ================================= */}
 
-            <div className="border-2 px-5 pb-[12px] pt-[24px] rounded-2xl border-teal-400 mt-3">
+            <div className="border-2 px-5 pb-[12px] pt-[24px] rounded-2xl border-light-teal mt-3">
               <div className="flex justify-between ">
-                <p className=" text-teal-400 font-medium text-lg">
+                <p className=" text-light-teal font-medium text-lg">
                   Illstarator Structuors
                 </p>
                 <svg
@@ -156,7 +156,7 @@ function page() {
                   viewBox="0 0 24 24"
                   strokeWidth={4.5}
                   stroke="currentColor"
-                  className="w-[24px] text-teal-400"
+                  className="w-[24px] text-light-teal"
                 >
                   <path
                     strokeLinecap="round"
@@ -204,7 +204,7 @@ function page() {
                 </div>
               </div>
               <hr className="mt-3" />
-              <div className="flex justify-between mt-3 text-teal-400 text-sm mx-4">
+              <div className="flex justify-between mt-3 text-light-teal text-sm mx-4">
                 <p>1. lorem ipsumm dolor </p>
                 <p>65:00</p>
               </div>
@@ -418,7 +418,7 @@ function page() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="currentColor"
-                className="w-6 h-6 text-teal-400"
+                className="w-6 h-6 text-light-teal"
               >
                 <path
                   strokeLinecap="round"
@@ -437,7 +437,7 @@ function page() {
                 <p className="text-2xl font-medium mt-[7px] mb-[10px]">
                   All Benefits of PLUS
                 </p>
-                <p className="text-3xl font-semibold text-teal-400">$24</p>
+                <p className="text-3xl font-semibold text-light-teal">$24</p>
               </div>
               <div className="p-4 rounded-xl shadow-2xl max-w-[205px] 2xl:max-h-[309px] mx-auto">
                 <img
@@ -448,7 +448,7 @@ function page() {
                 <p className="text-2xl font-medium mt-[7px] mb-[10px]">
                   All Benefits of PLUS
                 </p>
-                <p className="text-3xl text-teal-400 font-bold">$24</p>
+                <p className="text-3xl text-light-teal font-bold">$24</p>
               </div>
             </div>
           </div>

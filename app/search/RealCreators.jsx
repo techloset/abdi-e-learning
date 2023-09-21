@@ -40,21 +40,19 @@ export default function RealCreators() {
     },
   ];
   return (
-    <section className="pt-[90px] pb-[80px]">
+    <section className="pt-[90px] pb-[80px] px-[139px]">
       {/*   course taught by real creators */}
-      <div className="lg:mx-28  mx-12">
-        <div className=" flex justify-between ">
-          <p className="lg:text-3xl font-semibold">
-            Classes taught by real creators
-          </p>
-          <p className="text-teal-400 font-semibold ">See all</p>
-        </div>
+      <div className=" flex justify-between ">
+        <p className="lg:text-3xl font-semibold">
+          Classes taught by real creators
+        </p>
+        <p className="text-light-teal font-semibold ">See all</p>
       </div>
       <div>
-        <div className="grid 2xl:grid-cols-3 md:grid-cols-2  mt-[188px] gap-y-36  gap-x-6  mx-8 lg:mx-20">
+        <div className="flex justify-between flex-wrap mt-[188px] gap-y-36  gap-x-">
           {creators.map((card) => {
             return (
-              <div className="shadow-md relative flex flex-col items-end justify-end mx-auto h-[300px] lg:w-[400px] xl:w-[430px] sm:w-[350px] w-[300px] ">
+              <div className="shadow-creators-shadow relative flex flex-col items-end justify-end mx-auto xl:mx-0 h-[300px] lg:w-[400px] xl:w-[430px] 2xl:w-[516px] 2xl:h-[303px] sm:w-[350px] w-[300px]">
                 <div className="bg-white py-5 px-6">
                   <h2 className="text-2xl text-center font-semibold mb-4 leading-[180%]">
                     {card.name}

@@ -3,14 +3,14 @@ import React from "react";
 function Students() {
   const Card = ({ title, content, img }) => {
     return (
-      <div className="bg-white rounded-3xl max-w-[384px] h-[395px] mx-auto shadow-lg p-9">
+      <div className="bg-white rounded-3xl max-w-[384px] h-[395px] mx-auto lg:mx-0 shadow-lg p-9">
         <img
           src={img}
           alt=""
-          className="  w-[118px] h-[118px] bg-gray-400 justify-center mx-auto "
+          className="rounded w-[118px] h-[118px] bg-gray-400 justify-center mx-auto "
         />
 
-        <h3 className="text-center text-xl font-semibold mb-2">{title}</h3>
+        <h3 className="text-center text-xl font-semibold mb-5 mt-5">{title}</h3>
         <p className="justify-center text-gray-600 text-base text-center">
           {content}
         </p>
@@ -54,13 +54,13 @@ function Students() {
       {/* =====================================================================what our students have to say ================================================================================ */}
       <div className="bg-indigo-300 bg-opacity-20 relative">
         <div className="sm:mx-10 mx-6 lg:mx-16 xl:mx-20 2xl:mx-[100px] pb-[317px]">
-          <h1 className="mx-10 font-bold text-2xl pt-20 pb-12">
+          <h1 className="font-bold text-4xl pt-20 pb-12">
             What our students have to say
           </h1>
 
           <div className="flex justify-between">
             <div className="mx-auto justify-center w-full relative ">
-              <button className="absolute hidden 2xl:block top-1/2  text-white left-2 transform -translate-y-1/2 -translate-x-1/2 p-2 w-10 h-10 bg-teal-400 rounded-full">
+              <button className="absolute hidden 2xl:block top-1/2  text-white left-1 transform -translate-y-1/2 -translate-x-1/2 p-2 w-[50px] h-[50px] text-2xl bg-light-teal rounded-full">
                 &lt;
               </button>
               <div className="grid md:grid-cols-2 lg:grid-cols-2  gap-12 xl:gap-14 2xl:grid-cols-4  2xl:gap-8">
@@ -73,7 +73,7 @@ function Students() {
                   />
                 ))}
               </div>
-              <button className="absolute hidden 2xl:block top-1/2 right-2 text-white transform -translate-y-1/2 translate-x-1/2 p-2 w-10 h-10 bg-teal-400 rounded-full">
+              <button className="absolute hidden 2xl:block top-1/2 right-6 text-white transform -translate-y-1/2 translate-x-1/2 p-2 w-[50px] h-[50px] text-2xl bg-light-teal rounded-full">
                 &gt;
               </button>
             </div>
@@ -93,7 +93,7 @@ function Students() {
               <button className="">Android APP</button>
             </div>
 
-            <div className=" bg-teal-400 font-bold w-[254px] h-[63px] rounded-xl mx-auto flex items-center justify-center gap-2">
+            <div className=" bg-light-teal font-bold w-[254px] h-[63px] rounded-xl mx-auto flex items-center justify-center gap-2">
               <img src="/images/apple.png" alt="" className="w-[35px]" />
               <button className="">IOS APP</button>
             </div>

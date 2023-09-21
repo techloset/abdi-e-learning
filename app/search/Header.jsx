@@ -18,15 +18,15 @@ function Header() {
                 placeholder="Search your favourite course"
                 className="w-full h-14 pl-1 sm-pl-6 md:pl-[34px] py-[21px] border  sm:text-xl text-sm border-none focus:outline-none"
               />
-              <button className="lg:text-2xl text-sm font-bold w-[183px] h-5/6 md:h-[63px] my-1 md:my-0 bg-teal-400 text-white rounded-md">
+              <button className="lg:text-2xl text-sm font-bold w-[183px] h-5/6 md:h-[63px] my-1 md:my-0 bg-light-teal text-white rounded-md">
                 Search
               </button>
             </div>
           </div>
           {/* select */}
-          <div className="grid grid-cols-2 xl:grid-cols-6 gap-4 w-11/12 2xl:w-[1319px]">
+          <div className="flex gap-4 w-11/12 flex-wrap 2xl:max-w-[1324px] justify-between">
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent py-[18px] px-5 border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Subject
               </option>
@@ -39,7 +39,7 @@ function Header() {
             </select>
             {/* sel */}
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Partner
               </option>
@@ -52,7 +52,7 @@ function Header() {
             </select>
             {/* sel */}
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Program
               </option>
@@ -65,7 +65,7 @@ function Header() {
             </select>
             {/* sel */}
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Language
               </option>
@@ -78,7 +78,7 @@ function Header() {
             </select>
             {/* sel */}
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Availability
               </option>
@@ -91,7 +91,7 @@ function Header() {
             </select>
             {/* sel */}
             {/* sel */}
-            <select className="block mx-auto xl:mx-0 text-center font-semibold w-fit text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
+            <select className="block mx-auto xl:mx-0 text-center font-semibold text-2xl border-r-[12px] border-transparent p-[18px] border border-gray-300 xl:h-[73px] bg-white rounded-[10px] shadow-sm">
               <option value="" className="">
                 Learning Type
               </option>

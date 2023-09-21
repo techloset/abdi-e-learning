@@ -37,31 +37,31 @@ const Success = () => {
           ultrices eu ornare tristique vel nisl orci.{" "}
         </p>
         <div className="flex flex-col md:flex-row gap-8 md:gap-0 justify-between text-center font-buenos-airesLight mt-14 xl:mt-24">
-          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD] ">
+          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-light-teal ">
             15K+{" "}
             <span className="xl:text-[32px] text-2xl md:text-xl lg:text-2xl font-buenos-aires text-black font-normal">
               Students
             </span>
           </div>
-          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD]">
+          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent bg-clip-text bg-gradient-to-r from-[#136CB5] to-light-teal">
             75%{" "}
             <span className="xl:text-[32px] text-2xl md:text-xl lg:text-2xl font-buenos-aires text-black font-normal">
               Total success
             </span>
           </div>
-          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD]">
+          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent bg-clip-text bg-gradient-to-r from-[#136CB5] to-light-teal">
             35{" "}
             <span className="xl:text-[32px] text-2xl md:text-xl lg:text-2xl font-buenos-aires text-black font-normal">
               Main questions
             </span>
           </div>
-          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD]">
+          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-light-teal">
             26{" "}
             <span className="xl:text-[32px] text-2xl md:text-xl lg:text-2xl font-buenos-aires text-black font-normal">
               Chief experts
             </span>
           </div>
-          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-[#49BBBD]">
+          <div className="xl:text-8xl md:text-3xl text-6xl lg:text-5xl font-light flex flex-col leading-[100%]  text-transparent  bg-clip-text bg-gradient-to-r from-[#136CB5] to-light-teal">
             16{" "}
             <span className="xl:text-[32px] text-2xl md:text-xl lg:text-2xl font-buenos-aires text-black font-normal">
               Years of experience
@@ -70,8 +70,8 @@ const Success = () => {
         </div>
         {/* all in one  */}
 
-        <h1 className="text-[#2F327D] text-4xl font-bold justify-center text-center mt-20 2xl:mt-32 mb-5 !leading-[180%]">
-          All-In-One <span className="text-[#00CBB8]">Cloud Software.</span>
+        <h1 className="text-normal-purple text-4xl font-bold justify-center text-center mt-20 2xl:mt-32 mb-5 !leading-[180%]">
+          All-In-One <span className="text-dark-teal">Cloud Software.</span>
         </h1>
 
         <p className=" text-gray-500 text-2xl text-center justify-center mx-auto hidden md:block lg:w-2/3 xl:w-1/2 !leading-[180%]">

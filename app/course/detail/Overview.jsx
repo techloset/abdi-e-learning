@@ -18,7 +18,7 @@ function Overview() {
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
               Overview
             </button>
-            <button className=" bg-teal-400 text-white mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
+            <button className=" bg-light-teal text-white mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
               Overview
             </button>
           </div>
@@ -48,30 +48,30 @@ function Overview() {
               <div className="w-[100%]  flex flex-col">
                 <div className="w-[100%] ">
                   <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
-                    <div className="bg-teal-400 h-2.5 rounded-sm   w-[75%] "></div>
+                    <div className="bg-light-teal h-2.5 rounded-sm   w-[75%] "></div>
                   </div>
                 </div>
                 <div className="w-[100%] ">
                   <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
-                    <div className="bg-teal-400 h-2.5 rounded-sm   w-[75%] "></div>
-                  </div>
-                </div>
-
-                <div className="w-[100%] ">
-                  <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
-                    <div className="bg-teal-400 h-2.5 rounded-sm   w-[75%] "></div>
+                    <div className="bg-light-teal h-2.5 rounded-sm   w-[75%] "></div>
                   </div>
                 </div>
 
                 <div className="w-[100%] ">
                   <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
-                    <div className="bg-teal-400 h-2.5 rounded-sm   w-[75%] "></div>
+                    <div className="bg-light-teal h-2.5 rounded-sm   w-[75%] "></div>
                   </div>
                 </div>
 
                 <div className="w-[100%] ">
                   <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
-                    <div className="bg-teal-400 h-2.5 rounded-sm   w-[75%] "></div>
+                    <div className="bg-light-teal h-2.5 rounded-sm   w-[75%] "></div>
+                  </div>
+                </div>
+
+                <div className="w-[100%] ">
+                  <div className="w-[100%] mt-[13px] bg-gray-200 rounded-sm h-2.5 mb-4 ">
+                    <div className="bg-light-teal h-2.5 rounded-sm   w-[75%] "></div>
                   </div>
                 </div>
               </div>
@@ -149,12 +149,12 @@ function Overview() {
             </p>
           </div>
 
-          <p className="text-center  text-teal-400 text-xl font-semibold mt-[30px] tracking-[0.4px] mb-[5px]">
+          <p className="text-center  text-light-teal text-xl font-semibold mt-[30px] tracking-[0.4px] mb-[5px]">
             {" "}
             11 hour left at this price
           </p>
 
-          <button className="bg-teal-400 w-full text-white text-center py-3 my-[30px]  text-[20px]  font-semibold rounded-2xl">
+          <button className="bg-light-teal w-full text-white text-center py-3 my-[30px]  text-[20px]  font-semibold rounded-2xl">
             <Link href="/checkout">Buy Now</Link>
           </button>
 

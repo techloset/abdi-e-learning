@@ -18,7 +18,7 @@ function OnlineCoaching() {
         </p>{" "}
         <br />
         <br />
-        <button className="bg-teal-400 w-[236px] h-[63px] rounded-xl mx-auto">
+        <button className="bg-light-teal w-[236px] h-[63px] rounded-xl mx-auto">
           <Link href="/course/detail">Start learning now</Link>
         </button>
         <br />

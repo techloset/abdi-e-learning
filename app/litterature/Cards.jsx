@@ -12,26 +12,26 @@ function Cards() {
   const btn = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }, { id: 5 }];
   return (
     <section className="mx-6 md:mx-[100px] 2xl:mx-[120px]">
-      <div className="flex font-bold flex-row flex-wrap justify-center 2xl:justify-start text-gray-700">
+      <div className="flex font-bold flex-row flex-wrap justify-center gap-[26px] 2xl:justify-start text-gray-700">
         <button className="bg-[#BBBBBB80] w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           About
         </button>
-        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Courses
         </button>
-        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Notes
         </button>
-        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Project
         </button>
-        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Podcast
         </button>
-        <button className="bg-teal-400 text-white  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-light-teal text-white  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Book
         </button>
-        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] lg:mx-4 rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
+        <button className="bg-[#BBBBBB80]  w-[163px] h-[63px] rounded-xl text-xl 2xl:text-2xl font-bold mt-3 ">
           Review
         </button>
       </div>
@@ -52,7 +52,7 @@ function Cards() {
             />
             <div className="flex justify-between my-7">
               <h1 className="text-[25px] ">All Benefits Of PLUS </h1>
-              <h1 className="text-3xl font-extrabold text-teal-400 ">$24</h1>
+              <h1 className="text-3xl font-extrabold text-light-teal ">$24</h1>
             </div>
           </div>
           //   </div>
@@ -60,7 +60,7 @@ function Cards() {
       </div>
       <div className="w-full flex justify-center my-[52px]">
         <button
-          className=" text-teal-400 font-semibold h-[70px] w-[70px]"
+          className=" text-light-teal font-semibold h-[70px] w-[70px]"
           style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}
         >
           <img src="/images/leftArrow.png" alt="" className="mx-auto" />
@@ -69,15 +69,15 @@ function Cards() {
         {btn.map((btn) => (
           <button
             className={`${
-              btn.id == "3" ? "bg-teal-400" : ""
-            } hover:bg-teal-400 text-black font-semibold h-[70px] w-[70px]`}
+              btn.id == "3" ? "bg-light-teal" : ""
+            } hover:bg-light-teal text-black h-[70px] w-[70px] text-3xl`}
           >
             {btn.id}
           </button>
         ))}
 
         <button
-          className="font-extrabold text-teal-400 h-[70px] w-[70px]"
+          className="font-extrabold text-light-teal h-[70px] w-[70px]"
           style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}
         >
           <img

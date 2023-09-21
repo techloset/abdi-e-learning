@@ -4,10 +4,10 @@ const Card = ({ cards }) => {
     <section>
       {/* Heading for the latest News */}
       <div className=" text-center mt-36 mx-auto">
-        <p className="text-[#2F327D] text-4xl   font-bold py-5">
+        <p className="text-normal-purple text-4xl   font-bold py-5">
           Latest News and Resources
         </p>
-        <p className="text-[#696984] text-2xl mt-5">
+        <p className="text-grey-600 text-2xl mt-5">
           See the developments that have occurred to TOTC in the world
         </p>
       </div>
@@ -17,7 +17,7 @@ const Card = ({ cards }) => {
           <img className="" src="/images/testiLaptop.png" alt="" />
 
           <div className="flex flex-col justify-start xl:max-w-[609px] mt-10">
-            <button className="bg-[#49BBBD] text-white text-xl py-2 px-4 rounded-full w-1/4">
+            <button className="bg-light-teal text-white text-xl py-2 px-4 rounded-full w-1/4">
               NEWS
             </button>
             <h5 className="mb-2 text-[26px] font-black text-[#252641] mt-5 leading-[180%]">
@@ -38,7 +38,7 @@ const Card = ({ cards }) => {
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`bg-white  cursor-pointer rounded-3xl md:border-none border border-[#696984] ${
+              className={`bg-white  cursor-pointer rounded-3xl md:border-none border border-grey-600 ${
                 card.buttonText === "NEWS" ? "mt-12" : ""
               } `}
             >
@@ -50,7 +50,7 @@ const Card = ({ cards }) => {
                   }}
                   className="h-[300px] md:h-[200px] w-full rounded-3xl col-span-4 flex items-end justify-end p-5"
                 >
-                  <button className="bg-[#49BBBD] h-[34px] flex items-center text-white px-4 rounded-full">
+                  <button className="bg-light-teal h-[34px] flex items-center text-white px-4 rounded-full">
                     {card.buttonText}
                   </button>
                 </div>
@@ -59,7 +59,7 @@ const Card = ({ cards }) => {
                     {card.title}
                   </h2>
 
-                  <p className="text-[#696984] text-xl mt-5 leading-[180%]">
+                  <p className="text-grey-600 text-xl mt-5 leading-[180%]">
                     {card.description}
                   </p>
                 </div>

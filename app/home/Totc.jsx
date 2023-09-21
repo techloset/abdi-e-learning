@@ -4,11 +4,11 @@ import React from "react";
 const Totc = () => {
   return (
     <section>
-      <h1 className="text-[#2F327D] text-3xl lg:text-[44px] mt-20 xl:mt-36 font-bold justify-center text-center !leading-[180%]">
-        What is <span className="text-[#00CBB8]">TOTC?</span>
+      <h1 className="text-normal-purple text-3xl lg:text-[44px] mt-20 xl:mt-36 font-bold justify-center text-center !leading-[180%]">
+        What is <span className="text-dark-teal">TOTC?</span>
       </h1>
 
-      <p className="xl:w-2/3 text-[#696984] text-2xl  hidden md:block 2xl:w-[1101px] mt-5 mb-20 md:w-3/4 lg:w-3/4 justify-center text-center mx-auto !leading-[180%] tracking-[0.48px]">
+      <p className="xl:w-2/3 text-grey-600 text-2xl  hidden md:block 2xl:w-[1101px] mt-5 mb-20 md:w-3/4 lg:w-3/4 justify-center text-center mx-auto !leading-[180%] tracking-[0.48px]">
         TOTC is a platform that allows educators to create online classes
         whereby they can store the course materials online; manage assignments,
         quizzes and exams; monitor due dates; grade results and provide students

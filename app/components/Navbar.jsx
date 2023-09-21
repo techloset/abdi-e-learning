@@ -76,7 +76,7 @@ function Navbar() {
                 </DropdownTrigger>
                 <DropdownMenu
                   aria-label="Static Actions"
-                  className="bg-teal-400 bg-opacity-60 rounded-2xl mt-5 text-xl font-semibold text-gray-600 shadow-2xl p-4"
+                  className="bg-light-teal bg-opacity-60 rounded-2xl mt-5 text-xl font-semibold shadow-2xl p-4"
                 >
                   <DropdownItem className="my-1" key="home">
                     <Link href="/home">Home</Link>
@@ -102,8 +102,8 @@ function Navbar() {
                   <DropdownItem className="my-1" key="meeting">
                     <Link href="/meeting">Meeting</Link>
                   </DropdownItem>
-                  <DropdownItem className="my-1" key="memmership">
-                    <Link href="/memmership">Membership</Link>
+                  <DropdownItem className="my-1" key="membership">
+                    <Link href="/membership">Membership</Link>
                   </DropdownItem>
                   <DropdownItem className="my-1" key="search">
                     <Link href="/search">Search</Link>
@@ -115,7 +115,7 @@ function Navbar() {
                     <Link href="/auth/login">Login</Link>
                   </DropdownItem>
                   <DropdownItem
-                    className="my-1 p-3 bg-teal-500 rounded-xl flex justify-center text-white"
+                    className="my-1 p-3 bg-dark-teal rounded-xl flex justify-center text-white"
                     key="register"
                   >
                     <Link href="/auth/register">Register</Link>

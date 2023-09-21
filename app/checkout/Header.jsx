@@ -12,8 +12,8 @@ function Header() {
             Cart Type
           </p>
 
-          <div className="flex sm:flex-row flex-col gap-[20px] mt-[38px] mb-[84px]">
-            <div className="rounded-lg w-[139px] mx-auto">
+          <div className="flex sm:flex-row flex-col items-start gap-[20px] mt-[38px] mb-[84px]">
+            <div className="rounded-lg w-[139px]">
               <img
                 className="rounded-lg h-[93px]"
                 src="/images/paypal.png"
@@ -21,7 +21,7 @@ function Header() {
               />
             </div>
 
-            <div className="rounded-lg  w-[139px] mx-auto  ">
+            <div className="rounded-lg  w-[139px]  ">
               <img
                 className="rounded-lg h-[93px] "
                 src="/images/am.png"
@@ -29,7 +29,7 @@ function Header() {
               />
             </div>
 
-            <div className="rounded-lg  w-[139px] mx-auto ">
+            <div className="rounded-lg  w-[139px] ">
               <img
                 className="rounded-lg  h-[93px]"
                 src="/images/visa.png"
@@ -37,7 +37,7 @@ function Header() {
               />
             </div>
 
-            <div className="rounded-lg h-[93px] mx-auto w-[139px]  border-2 md:ml-3 flex items-center justify-center">
+            <div className="rounded-lg h-[93px] w-[139px]  border-2 md:ml-3 flex items-center justify-center">
               <img
                 className="rounded-lg  h-[93px]"
                 src="/images/mc.png"
@@ -117,7 +117,7 @@ function Header() {
             Save my information for faster checkout
           </div>
 
-          <button className="rounded-xl md:text-[26px] text-white w-full bg-teal-400 py-4 ">
+          <button className="rounded-xl md:text-[26px] text-white w-full bg-light-teal py-4 ">
             Confirm Payment
           </button>
         </div>

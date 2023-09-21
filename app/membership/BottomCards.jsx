@@ -18,7 +18,7 @@ function BottomCards() {
             Michael Chasen, integrates exclusively...
           </p>
           <div className="card-actions justify-end mt-12">
-            <button className="btn btn-primary float-right bg-teal-400 rounded-xl  text-white  w-[245px] h-[63px] ">
+            <button className="btn btn-primary float-right bg-light-teal rounded-xl  text-white  w-[245px] h-[63px] ">
               Apply as a Teacher
             </button>
           </div>
@@ -40,7 +40,7 @@ function BottomCards() {
             Michael Chasen, integrates exclusively...
           </p>
           <div className="card-actions justify-end mt-12">
-            <button className="btn btn-primary float-right bg-teal-400 rounded-xl  text-white  w-[245px] h-[63px] ">
+            <button className="btn btn-primary float-right bg-light-teal rounded-xl  text-white  w-[245px] h-[63px] ">
               Apply as a Coursector
             </button>
           </div>

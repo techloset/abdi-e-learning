@@ -11,7 +11,7 @@ function LastTwo() {
             <div className="font-medium text-xl md:text-[30px]  ">
               The course in personal development
             </div>
-            <div className="text-teal-400 text-[20px] font-bold hidden md:block">
+            <div className="text-light-teal text-[20px] font-bold hidden md:block">
               <Link href="/course/detail">See all</Link>
             </div>
           </div>
@@ -24,7 +24,7 @@ function LastTwo() {
             <div className="font-medium text-xl md:text-[30px]  ">
               Student are viewing{" "}
             </div>
-            <div className="text-teal-400 text-[20px] font-bold  hidden md:block">
+            <div className="text-light-teal text-[20px] font-bold  hidden md:block">
               See all
             </div>
           </div>

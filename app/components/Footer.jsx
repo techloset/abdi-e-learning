@@ -27,7 +27,7 @@ const Footer = () => {
             placeholder="Your Email"
           />
 
-          <button className="sm:text-[22px]  font-semibold text-white bg-[#49BBBD]  rounded-full w-[179px] h-[60px]">
+          <button className="sm:text-[22px]  font-semibold text-white bg-light-teal  rounded-full w-[179px] h-[60px]">
             Subscribe
           </button>
         </div>

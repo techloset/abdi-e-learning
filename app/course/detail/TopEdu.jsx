@@ -9,12 +9,12 @@ function TopEdu() {
           <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
             Top Education offers and deals are listed here
           </div>
-          <div className="text-teal-400 text-[20px] font-bold hidden md:block">
+          <div className="text-light-teal text-[20px] font-bold hidden md:block">
             See all
           </div>
         </div>
 
-        <div className="grid xl:grid-cols-3   gap-8">
+        <div className="flex justify-between flex-wrap 2xl:flex-nowrap gap-8">
           {/* =================================card start========================= */}
           <div
             style={{
@@ -22,7 +22,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[506px] 2xl:h-[477px] overflow-hidden"
+            className="rounded-[20px] shadow-lg cursor-pointer 2xl:max-w-[506px] 2xl:h-[477px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full px-[50px] py-[40px]">
               <div className="">

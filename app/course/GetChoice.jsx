@@ -10,7 +10,7 @@ function GetChoice() {
           <div className="font-medium text-xl md:text-[30px]  ">
             Get choice of your course
           </div>
-          <div className="text-teal-400 text-[20px] font-bold  hidden md:block">
+          <div className="text-light-teal text-[20px] font-bold  hidden md:block">
             <Link href="/course/detail">See all</Link>
           </div>
         </div>

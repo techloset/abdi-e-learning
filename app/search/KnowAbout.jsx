@@ -10,21 +10,21 @@ function KnowAbout() {
           </p>
 
           <div className="flex mb-[10px]">
-            <div className="bg-teal-400 mt-2 mx-2 rounded-full w-5 h-3 lg:w-4 lg:h-4  md:w-4 md:h-4"></div>
+            <div className="bg-light-teal mt-2 mx-2 rounded-full w-5 h-3 lg:w-4 lg:h-4  md:w-4 md:h-4"></div>
             <p className="lg:text-lg ">Free E-book, video & consolation</p>
           </div>
 
           <div className="flex mb-[10px]">
-            <div className="bg-teal-400 mt-2 mx-2 rounded-full w-5 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4"></div>
+            <div className="bg-light-teal mt-2 mx-2 rounded-full w-5 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4"></div>
             <p className="lg:text-lg ">Top instructors from around world</p>
           </div>
 
           <div className="flex mb-[25px]">
-            <div className="bg-teal-400 mt-2 mx-2 rounded-full w-4 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4"></div>
+            <div className="bg-light-teal mt-2 mx-2 rounded-full w-4 h-3  md:w-4 md:h-4 lg:w-4 lg:h-4"></div>
             <p className="lg:text-lg ">Top courses from your team</p>{" "}
           </div>
 
-          <button className="lg:text-2xl text-xl font-extrabold text-white rounded-xl w-[309px] h-[63px] bg-teal-400 ">
+          <button className="lg:text-2xl text-xl font-extrabold text-white rounded-xl w-[309px] h-[63px] bg-light-teal ">
             Start learning now
           </button>
         </div>
@@ -33,7 +33,7 @@ function KnowAbout() {
           <img
             src="/images/Group 71.png"
             alt=""
-            className="w-[814px] h-[474px]"
+            className="w-[814px] max-h-[474px]"
           />
         </div>
       </div>
