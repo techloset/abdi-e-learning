@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className=" bg-indigo-300 bg-opacity-20">
       {/* why swift ui should be on the radar */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 mx-6 lg:mx-16 xl:mx-20 2xl:mx-[118px] gap-8 xl:gap-6 2xl:py-[70px] ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 mx-6 lg:mx-16 xl:mx-20 2xl:mx-[118px] gap-8 xl:gap-6 py-10 xl:py-[70px] ">
         <div className="text">
           <p className="text-black text-2xl ">
             By Themadbrains in{" "}
