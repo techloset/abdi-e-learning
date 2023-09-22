@@ -4,12 +4,12 @@ function OneOnOne() {
   return (
     <section>
       {/* -----------------------------------------------------------One to one discussions-------------------------------------------------------------- */}
-      <div className="grid lg:grid-cols-2  gap-10 mx-6 lg:mx-[186px] mt-20 lg:mt-40">
-        <div className=" ">
+      <div className="flex flex-wrap justify-between  gap-20 mx-6 lg:mx-[186px] 2xl:ms-[191px] 2xl:me-[243px] mt-20 lg:mt-40">
+        <div className="w-[755px] ">
           <img src="/images/discussion.png" alt="" />
         </div>
 
-        <div className="mx-4 my-auto  p-4">
+        <div className=" my-auto ">
           <h1 className="text-normal-purple text-2xl leading-[160%] xl:text-[40px] font-semibold xl:max-w-[274px]">
             One-on-One <span className="text-dark-teal">Discussions</span>
           </h1>

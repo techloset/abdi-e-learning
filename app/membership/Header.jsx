@@ -46,7 +46,7 @@ function Header() {
                   👤 Individual
                 </p>
               </div>
-              <button className="text-black px-4 rounded-full border border-blue-600">
+              <button className="text-black px-4 rounded-full border text-xs border-blue-600">
                 BEST!
               </button>
             </div>
@@ -80,7 +80,7 @@ function Header() {
 
             <button
               href="#"
-              className=" bg-light-teal rounded-xl text-white py-3   text-whiterounded-xl border text-lg"
+              className=" bg-light-teal rounded-xl text-white py-3 font-bold border text-2xl"
             >
               {" "}
               Regular liscence

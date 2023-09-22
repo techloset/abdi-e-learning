@@ -63,7 +63,7 @@ function Students() {
               <button className="absolute hidden 2xl:block top-1/2  text-white left-1 transform -translate-y-1/2 -translate-x-1/2 p-2 w-[50px] h-[50px] text-2xl bg-light-teal rounded-full">
                 &lt;
               </button>
-              <div className="grid md:grid-cols-2 lg:grid-cols-2  gap-12 xl:gap-14 2xl:grid-cols-4  2xl:gap-8">
+              <div className="grid md:grid-cols-2 lg:grid-cols-3  gap-12 xl:gap-14 2xl:grid-cols-4  2xl:gap-8">
                 {student.map((testimonial) => (
                   <Card
                     key={testimonial.id}

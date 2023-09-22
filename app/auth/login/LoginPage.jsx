@@ -54,9 +54,9 @@ function LoginPage() {
               className="focus:outline-none"
             />
             <img
-              src="/images/icons/invisibleEye.png"
+              src="/images/icons/invisibleEye.svg"
               alt=""
-              className="h-[18px] w-[14px]"
+              className="h-[18px] w-[18px] my-auto"
             />
           </div>
         </div>

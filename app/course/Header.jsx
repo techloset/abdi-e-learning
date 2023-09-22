@@ -62,9 +62,9 @@ function Header() {
                   <h2 className="text-xl font-bold mb-2">{card.title}</h2>
                   <div className="flex items-center space-x-4 mb-4">
                     <img
-                      src="/images/profileBlogIcon.png"
+                      src="/images/profileBlogicon.png"
                       alt="ProfilePicture"
-                      className="w-10 h-10 rounded-full"
+                      className="w-10 h-10 rounded-full bg-[#d9d9d9]"
                     />
 
                     <span className="text-gray-700">Lina</span>

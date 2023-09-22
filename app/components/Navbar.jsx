@@ -64,7 +64,7 @@ function Navbar() {
             <li className="flex items-center gap-2">
               <img
                 src="/images/profileBlogicon.png"
-                className="h-[63px]"
+                className="h-[63px] bg-[#d9d9d9] rounded-full"
                 alt=""
               />
               <Dropdown>

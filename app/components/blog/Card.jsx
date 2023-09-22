@@ -49,7 +49,7 @@ const Card = () => {
             <img
               src="/images/profileBlogicon.png"
               alt="ProfilePicture"
-              className="w-10 h-10 rounded-full"
+              className="w-10 h-10 rounded-full bg-[#d9d9d9]"
             />
             <p className="ml-4 mt-1">Lina</p>
           </div>

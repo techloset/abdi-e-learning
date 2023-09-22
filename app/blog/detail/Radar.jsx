@@ -3,18 +3,18 @@ import React from "react";
 function Radar() {
   return (
     <section>
-      <div className="md:mx-14 mx-6 lg:mx-20 xl:mx-[120px] pt-[80px] w-[1681px]">
+      <div className="md:mx-14 mx-6 lg:mx-20 xl:mx-[120px] pt-[80px] max-w-[1681px]">
         <p className="font-semibold  text-[44px] text-normal-purple ">
           Why Swift UI Should Be on the Radar of Every Mobile Developer
         </p>
 
-        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] w-[1681px] mt-[25px]">
+        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] max-w-[1681px] mt-[25px]">
           TOTC is a platform that allows educators to create online classes
           whereby they can store the course materials online; manage
           assignments, quizzes and exams; monitor due dates; grade results and
           provide students with feedback all in one place.
         </p>
-        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] w-[1681px] mt-[25px]">
+        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] max-w-[1681px] mt-[25px]">
           TOTC is a platform that allows educators to create online classes
           whereby they can store the course materials online; manage
           assignments, quizzes and exams; monitor due dates; grade results and
@@ -24,7 +24,7 @@ function Radar() {
           exams; monitor due dates; grade results and provide students with
           feedback all in one place. <br /> TOTC is a platform
         </p>
-        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] w-[1681px] mt-[30px]">
+        <p className="text-gray-600 text-2xl leading-[180%] tracking-[0.48px] max-w-[1681px] mt-[30px]">
           TOTC is a platform that allows educators to create online classes
           whereby they can store the course materials online; manage
           assignments, quizzes and exams; monitor due dates; grade results and
@@ -54,7 +54,7 @@ function Radar() {
           <div className="flex items-center">
             <img
               src="/images/blogDetailGirl.png"
-              className="rounded-md mr-3 w-[77] bg-gray-300  h-[77px]"
+              className="rounded-md mr-3 max-w-[77] bg-gray-300  h-[77px]"
               alt=""
             />
             <div>

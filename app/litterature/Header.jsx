@@ -28,7 +28,7 @@ function Header() {
           <p className="text-[#2D3436B2] text-lg mt-2  md:mt-0 xl:mt-[7px]">
             Assistant Professor at Mcmaster University
           </p>{" "}
-          <p className="text-lg 2xl:text-[25px] mt-4 md:mt-0 leading-[180%] xl:mt-[15px]">
+          <p className="text-lg 2xl:text-[25px] mt-4 md:mt-0 !leading-[128%] xl:mt-[15px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt utlabore et dolore magna aliqua. Ut enum
             ad minim veniam, quis nostrud

@@ -5,9 +5,9 @@ function Overview() {
   return (
     <section>
       {/* =====================main section============================= */}
-      <div className="md:mx-28 mx-6 flex xl:flex-row flex-col gap-8 pb-[100px] justify-between">
+      <div className="md:mx-28 mx-6 2xl:ms-[157px] 2xl:me-[120px] flex 2xl:flex-row flex-col gap-8 pb-[100px] justify-between">
         {/* section with buttons and stars */}
-        <div className="xl:w-[55%] ">
+        <div className="">
           <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px]">
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
               Overview
@@ -84,7 +84,7 @@ function Overview() {
                 <div className="flex items-center">
                   <img
                     src="/images/profileBlogicon.png"
-                    className="w-[70px]"
+                    className="w-[70px] bg-[#d9d9d9] rounded-full"
                     alt=""
                   />
                   <div className="ms-3">
@@ -110,7 +110,7 @@ function Overview() {
                 <div className="flex items-center">
                   <img
                     src="/images/profileBlogicon.png"
-                    className="w-[70px]"
+                    className="w-[70px] bg-[#d9d9d9] rounded-full"
                     alt=""
                   />
                   <div className="ms-3">
@@ -132,7 +132,7 @@ function Overview() {
         </div>
 
         {/* ==========================================long card containing background image ===================================================== */}
-        <div className="p-[30px] rounded-2xl bg-white xl:-mt-[310px] xl:w-[35%] 2xl:max-w-[501px] 2xl:h-[1275px] shadow-2xl xl:shadow-none">
+        <div className="p-[30px] rounded-2xl bg-white 2xl:-mt-[310px] xl:w-[35%] 2xl:max-w-[501px] 2xl:h-[1275px] shadow-2xl xl:shadow-none">
           <img
             className="h-[268px] w-full"
             src="/images/blogdetail.png"
@@ -158,7 +158,7 @@ function Overview() {
             <Link href="/checkout">Buy Now</Link>
           </button>
 
-          <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 my-[39px]" />
+          <hr className="h-[1px] max-w-[442px] mx-auto bg-gray-600 my-[39px]" />
 
           <p className="text-xl md:text-3xl font-semibold mt-[30px]">
             This Course included
@@ -189,7 +189,7 @@ function Overview() {
 
             <p className="font-semibold opacity-50">32 Modules</p>
           </div>
-          <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 mt-[32px]" />
+          <hr className="h-[1px] max-w-[442px] mx-auto bg-gray-600 mt-[32px]" />
 
           <p className="text-xl md:text-3xl font-semibold mb-[30px] mt-[34px]">
             Training 5 or more people
@@ -200,7 +200,7 @@ function Overview() {
             Michael Chasen, integrates exclusively...
           </p>
 
-          <hr className="h-[1px] w-[442px] mx-auto bg-gray-600 my-[39px]" />
+          <hr className="h-[1px] max-w-[442px] mx-auto bg-gray-600 my-[39px]" />
 
           <p className="text-xl md:text-3xl font-semibold mb-[53px]">
             Share this course

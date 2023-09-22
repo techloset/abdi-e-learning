@@ -56,7 +56,7 @@ function RelatedBlogs() {
                     <img
                       src="/images/profileBlogicon.png"
                       alt="ProfilePicture"
-                      className="w-10 md:w-[70px] rounded-full"
+                      className="w-10 md:w-[70px] rounded-full bg-[#d9d9d9]"
                     />
 
                     <span className="text-gray-700 md:text-lg">Lina</span>

@@ -14,7 +14,7 @@ function TopEdu() {
           </div>
         </div>
 
-        <div className="grid xl:grid-cols-3   gap-8">
+        <div className="flex flex-wrap 2xl:flex-nowrap justify-between gap-8">
           {/* =================================card start========================= */}
           <div
             style={{
@@ -22,7 +22,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            class="rounded-xl shadow-lg cursor-pointer w-[509px] mx-auto 2xl:mx-0 h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
@@ -49,7 +49,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            class="rounded-xl shadow-lg cursor-pointer w-[509px] mx-auto 2xl:mx-0 h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
@@ -76,7 +76,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            class="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            class="rounded-xl shadow-lg cursor-pointer w-[509px] mx-auto 2xl:mx-0 h-[500px] overflow-hidden"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">

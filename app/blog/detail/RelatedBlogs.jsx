@@ -38,7 +38,7 @@ function RelatedBlogs() {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="card mx-auto 2xl:w-[786px] 2xl:h-[900px] bg-white shadow-md overflow-hidden sm:px-[33px] px-4 py-7 sm:py-[60px] rounded-[20px]"
+                className="card mx-auto 2xl:w-[786px] 2xl:h-[900px] bg-white shadow-md overflow-hidden sm:px-[33px] px-4 py-7 sm:pt-[60px] rounded-[20px]"
               >
                 <div
                   className="h-[210px] sm:h-[300px] md:h-[382px] max-w-[720px] rounded-[20px]"
@@ -51,17 +51,17 @@ function RelatedBlogs() {
                   <h2 className="text-gray-800 md:text-[26px] not-italic font-medium leading-[180%] max-w-[684px]">
                     {card.title}
                   </h2>
-                  <div className="flex items-center space-x-4 mb-4">
+                  <div className="flex items-center space-x-4 mb-6 mt-[14px]">
                     <img
                       src="/images/profileBlogicon.png"
                       alt="ProfilePicture"
-                      className="w-10 md:w-[70px] rounded-full"
+                      className="w-10 md:w-[70px] rounded-full bg-[#d9d9d9]"
                     />
 
                     <span className="text-gray-700 md:text-lg">Lina</span>
                   </div>
 
-                  <p className="text-gray-600 hidden md:block text-xl not-italic font-normal max-w-[684px] leading-[180%]">
+                  <p className="text-gray-600 hidden md:block text-xl mb-[45px] not-italic font-normal max-w-[684px] leading-[180%]">
                     {card.description}
                   </p>
 
