@@ -1,5 +1,5 @@
 import React from "react";
-const CardBlue = () => {
+const Card = () => {
   const articles = [
     {
       img: "/images/tablet.png",
@@ -15,9 +15,9 @@ const CardBlue = () => {
     },
   ];
 
-  const CardBlue = ({ img }) => {
+  const Card = ({ img }) => {
     return (
-      <div className="bg-white rounded-xl 2xl:h-[617px] 2xl:w-[374px] shadow-xl p-6 mx-auto lg:mx-0">
+      <div className="bg-white rounded-xl 2xl:h-[617px] w-[374px] shadow-xl p-6 mx-auto xl:mx-0">
         <img
           className="  h-[238px] w-[400px]  rounded-xl"
           src={img}
@@ -64,14 +64,14 @@ const CardBlue = () => {
   };
 
   return (
-    <div className="md:mx-16 mx-6  lg:mx-[118] my-[69px]">
-      <div className="grid xl:grid-cols-4 gap-y-[82px] gap-x-[62px]">
+    <div className="md:mx-16 mx-6  xl:mx-[137px] mt-[50px]">
+      <div className="flex justify-between gap-4 flex-wrap xl:flex-nowrap">
         {articles.map((testimonial) => (
-          <CardBlue key={testimonial.id} img={testimonial.img} />
+          <Card key={testimonial.id} img={testimonial.img} />
         ))}
       </div>
     </div>
   );
 };
 
-export default CardBlue;
+export default Card;

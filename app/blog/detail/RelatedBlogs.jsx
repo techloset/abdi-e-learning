@@ -38,7 +38,7 @@ function RelatedBlogs() {
             {cards.map((card, index) => (
               <div
                 key={index}
-                className="card mx-auto 2xl:w-[786px] 2xl:h-[900px] bg-white shadow-md overflow-hidden sm:px-[33px] px-4 py-7 sm:pt-[60px] rounded-[20px]"
+                className="card mx-auto xl:mx-0 2xl:w-[786px] 2xl:h-[900px] bg-white shadow-md overflow-hidden sm:px-[33px] px-4 py-7 sm:pt-[60px] rounded-[20px]"
               >
                 <div
                   className="h-[210px] sm:h-[300px] md:h-[382px] max-w-[720px] rounded-[20px]"

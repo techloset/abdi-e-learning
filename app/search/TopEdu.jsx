@@ -4,7 +4,7 @@ function TopEdu() {
   return (
     <section className="pb-[76px] pt-[70px]">
       {/* ========================================top eduaction=================================================== */}
-      <div className="mx-6 md:mx-16 lg:mx-28">
+      <div className="mx-6 md:mx-16 lg:mx-28 2xl:mx-[138px]">
         <div className="flex justify-between">
           <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
             Top Education offers and deals are listed here
@@ -14,7 +14,7 @@ function TopEdu() {
           </div>
         </div>
 
-        <div className="grid xl:grid-cols-3   gap-8">
+        <div className="flex justify-between flex-wrap 2xl:flex-nowrap gap-8">
           {/* =================================card start========================= */}
           <div
             style={{
@@ -22,7 +22,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:w-[509px] 2xl:h-[500px] overflow-hidden mx-auto xl:mx-0"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
@@ -49,7 +49,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:w-[509px] 2xl:h-[500px] overflow-hidden mx-auto xl:mx-0"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">
@@ -76,7 +76,7 @@ function TopEdu() {
               backgroundSize: "cover",
               backgroundPosition: "center top",
             }}
-            className="rounded-xl shadow-lg cursor-pointer 2xl:max-w-[509px] 2xl:h-[500px] overflow-hidden"
+            className="rounded-xl shadow-lg cursor-pointer 2xl:w-[509px] 2xl:h-[500px] overflow-hidden mx-auto xl:mx-0"
           >
             <div className="bg-black bg-opacity-30 h-full p-[45px]">
               <div className="">

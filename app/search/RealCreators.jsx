@@ -40,13 +40,13 @@ export default function RealCreators() {
     },
   ];
   return (
-    <section className="pt-[90px] pb-[80px] px-[139px]">
+    <section className="pt-[90px] pb-[80px] p-10 xl:px-[139px]">
       {/*   course taught by real creators */}
       <div className=" flex justify-between ">
-        <p className="lg:text-3xl font-semibold">
+        <p className="text-2xl lg:text-3xl font-semibold">
           Classes taught by real creators
         </p>
-        <p className="text-light-teal font-semibold ">See all</p>
+        <p className="text-light-teal font-semibold text-xl">See all</p>
       </div>
       <div>
         <div className="flex justify-between flex-wrap mt-[188px] gap-y-36  gap-x-">

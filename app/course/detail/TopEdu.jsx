@@ -2,9 +2,9 @@ import React from "react";
 
 function TopEdu() {
   return (
-    <section className="pb-[208px]">
+    <section className="pb-[208px] pt-[162px]">
       {/* ========================================top eduaction=================================================== */}
-      <div className="mx-6 md:mx-16 lg:mx-28">
+      <div className="mx-6 md:mx-16 lg:mx-28 2xl:ms-[174px] 2xl:me-[88px]">
         <div className="flex justify-between">
           <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
             Top Education offers and deals are listed here

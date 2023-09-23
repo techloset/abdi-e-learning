@@ -4,7 +4,7 @@ function TopEdu() {
   return (
     <section className="pb-[208px]">
       {/* ========================================top eduaction=================================================== */}
-      <div className="mx-6 md:mx-16 lg:mx-28">
+      <div className="mx-6 md:mx-16 lg:mx-28 2xl:mx-[126px]">
         <div className="flex justify-between">
           <div className="font-medium text-xl md:text-2xl xl:text-3xl mb-16">
             Top Education offers and deals are listed here
