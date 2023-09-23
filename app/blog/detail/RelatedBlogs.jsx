@@ -9,7 +9,7 @@ function RelatedBlogs() {
         "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
       description:
         "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...",
-      views: "251232",
+      views: "251,232",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ function RelatedBlogs() {
         "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
       description:
         "Class, launched less than a year ago by Blackboard co-founder Michael Chasen, integrates exclusively...",
-      views: "251232",
+      views: "251,232",
     },
   ];
   return (
@@ -70,8 +70,12 @@ function RelatedBlogs() {
                       Read More
                     </button>
                     <div className="text-gray-600">
-                      <div className="flex gap-2">
-                        <img src="/images/view.png" alt="viewIcon" />
+                      <div className="flex gap-2 items-center">
+                        <img
+                          src="/images/icons/view.svg"
+                          className="w-5 h-5"
+                          alt="viewIcon"
+                        />
                         <p>{card.views}</p>
                       </div>
                     </div>

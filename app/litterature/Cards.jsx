@@ -63,7 +63,11 @@ function Cards() {
           className=" text-light-teal font-semibold h-[70px] w-[70px]"
           style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}
         >
-          <img src="/images/leftArrow.png" alt="" className="mx-auto" />
+          <img
+            src="/images/icons/leftArrow.svg"
+            alt=""
+            className="mx-auto w-[15px] rotate-180"
+          />
         </button>
 
         {btn.map((btn) => (
@@ -81,9 +85,9 @@ function Cards() {
           style={{ backgroundColor: "rgba(73, 187, 189, 0.20)" }}
         >
           <img
-            src="/images/leftArrow.png"
+            src="/images/icons/leftArrow.svg"
             alt=""
-            className="mx-auto rotate-180"
+            className="mx-auto w-[15px]"
           />
         </button>
       </div>
