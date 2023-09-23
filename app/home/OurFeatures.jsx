@@ -37,7 +37,7 @@ function OurFeatures() {
           <div className="flex mb-10 items-cente">
             <div className=" bg-white justify-center rounded-full w-[60px] h-[60px] text-center flex items-center shadow-2xl me-10">
               <img
-                src="/images/icons/feat2.png"
+                src="/images/icons/feat3.png"
                 className="h-[26px] w-7"
                 alt=""
               />
@@ -50,7 +50,7 @@ function OurFeatures() {
           <div className="flex items-cente">
             <div className=" bg-white justify-center rounded-full w-[60px] h-[60px] text-center flex items-center shadow-2xl me-10">
               <img
-                src="/images/icons/feat3.png"
+                src="/images/icons/feat2.png"
                 className="h-[26px] w-7"
                 alt=""
               />

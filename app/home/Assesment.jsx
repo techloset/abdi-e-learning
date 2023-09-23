@@ -3,7 +3,7 @@ import React from "react";
 function Assesment() {
   return (
     <section>
-      <div className="grid lg:grid-cols-2  gap-10 mx-6 lg:mx-[192px] mt-20 lg:mt-40">
+      <div className="flex justify-between flex-wrap gap-10 mx-6 lg:mx-[192px] 2xl:me-[267px] 2xl:ms-[192px] mt-20 lg:mt-40">
         <div className=" ">
           <img src="/images/assess.png" alt="" />
         </div>
