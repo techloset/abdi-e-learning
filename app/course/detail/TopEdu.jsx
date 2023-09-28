@@ -29,7 +29,7 @@ function TopEdu() {
                 <button className=" text-white bg-red-700 h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
                   50%
                 </button>{" "}
-                <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                <h4 className=" font-semibold text-[32px] uppercase text-white mb-9">
                   For Instructors
                 </h4>
                 <p className=" leading-[180%]  text-2xl text-gray-100">
@@ -54,7 +54,7 @@ function TopEdu() {
                 <button className=" text-white bg-red-700 h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
                   50%
                 </button>{" "}
-                <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                <h4 className=" font-semibold text-[32px] uppercase text-white mb-9">
                   For Instructors
                 </h4>
                 <p className=" leading-[180%]  text-2xl text-gray-100">
@@ -79,7 +79,7 @@ function TopEdu() {
                 <button className=" text-white bg-red-700 h-[100px] w-[100px]   rounded-lg  mb-7 text-2xl font-bold  ">
                   50%
                 </button>{" "}
-                <h4 className=" font-semibold text-[32px]  text-white mb-9">
+                <h4 className=" font-semibold text-[32px] uppercase text-white mb-9">
                   For Instructors
                 </h4>
                 <p className=" leading-[180%]  text-2xl text-gray-100">

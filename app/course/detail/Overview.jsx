@@ -8,7 +8,7 @@ function Overview() {
       <div className="md:mx-28 mx-6 2xl:ms-[157px] 2xl:me-[120px] flex 2xl:flex-row flex-col gap-8 pb-[100px] justify-between">
         {/* section with buttons and stars */}
         <div className="">
-          <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px]">
+          <div className="flex md:flex-row flex-col justify-between gap-4 mt-[59px] mb-[83px] text-xl">
             <button className=" bg-[#0000001A] mt-3 rounded-xl w-[200px] h-[63px] mx-auto">
               Overview
             </button>
@@ -38,11 +38,11 @@ function Overview() {
                   </div>
                 </div>
                 <div className="opacity-50 mx-10 hidden md:block">
-                  <p className="mt-[10px]">5Stars</p>
-                  <p className="mt-[13px]">4Stars</p>
-                  <p className="mt-[13px]">3Stars</p>
-                  <p className="mt-[13px]">2Stars</p>
-                  <p className="mt-[13px]">1Stars</p>
+                  <p className="w-[71px] text-xl">5 Stars</p>
+                  <p className="mt-[13px] w-[71px] text-xl">4 Stars</p>
+                  <p className="mt-[13px] w-[71px] text-xl">3 Stars</p>
+                  <p className="mt-[13px] w-[71px] text-xl">2 Stars</p>
+                  <p className="mt-[13px] w-[71px] text-xl">1 Stars</p>
                 </div>
               </div>
               <div className="w-[100%]  flex flex-col">
@@ -154,13 +154,13 @@ function Overview() {
             11 hour left at this price
           </p>
 
-          <button className="bg-light-teal w-full text-white text-center py-3 my-[30px]  text-[20px]  font-semibold rounded-2xl">
+          <button className="bg-light-teal w-full text-white text-center py-3 mt-[35px] mb-[29.5px] text-[20px]  font-semibold rounded-2xl">
             <Link href="/checkout">Buy Now</Link>
           </button>
 
-          <hr className="h-[1px] max-w-[442px] mx-auto bg-gray-600 my-[39px]" />
+          <hr className="h-[1px] max-w-[442px] mx-auto bg-gray-600 mb-[30.5px]" />
 
-          <p className="text-xl md:text-3xl font-semibold mt-[30px]">
+          <p className="text-xl md:text-3xl font-semibold">
             This Course included
           </p>
 

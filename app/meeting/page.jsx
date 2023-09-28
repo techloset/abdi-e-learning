@@ -94,11 +94,11 @@ function page() {
                   <p>1 Hour</p>
                 </div>
 
-                <div className="flex text-sm items-center gap-2">
+                <div className="flex text-sm items-center gap-2 justify-center">
                   <img
                     src="/images/icons/book.svg"
                     alt=""
-                    className="w-[14px]"
+                    className="w-[16px]"
                   />
                   <p>5 Lessons</p>
                 </div>
@@ -133,7 +133,7 @@ function page() {
                   <img
                     src="/images/icons/book.svg"
                     alt=""
-                    className="w-[14px]"
+                    className="w-[16px]"
                   />
                   <p className="text-sm">3 Lessons</p>
                 </div>
@@ -194,11 +194,11 @@ function page() {
                   <p>1 Hour</p>
                 </div>
 
-                <div className="flex text-sm items-center gap-2">
+                <div className="flex text-sm items-center gap-2 justify-center">
                   <img
                     src="/images/icons/book.svg"
                     alt=""
-                    className="w-[14px]"
+                    className="w-[16px]"
                   />
                   <p>4 Lessons</p>
                 </div>
@@ -228,11 +228,11 @@ function page() {
                   <p>12:54</p>
                 </div>
 
-                <div className="flex text-sm items-center gap-2">
+                <div className="flex text-sm items-center gap-2 justify-center">
                   <img
                     src="/images/icons/book.svg"
                     alt=""
-                    className="w-[14px]"
+                    className="w-[16px]"
                   />
                   <p>5 Lessons</p>
                 </div>
@@ -262,11 +262,11 @@ function page() {
                   <p>59:00</p>
                 </div>
 
-                <div className="flex text-sm items-center gap-2">
+                <div className="flex text-sm items-center gap-2 justify-center">
                   <img
                     src="/images/icons/book.svg"
                     alt=""
-                    className="w-[14px]"
+                    className="w-[16px]"
                   />
                   <p>3 Lessons</p>
                 </div>

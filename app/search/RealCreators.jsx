@@ -52,12 +52,12 @@ export default function RealCreators() {
         <div className="flex justify-between flex-wrap mt-[188px] gap-y-36  gap-x-">
           {creators.map((card) => {
             return (
-              <div className="shadow-creators-shadow relative flex flex-col items-end justify-end mx-auto xl:mx-0 h-[300px] lg:w-[400px] xl:w-[430px] 2xl:w-[516px] 2xl:h-[303px] sm:w-[350px] w-[300px]">
+              <div className="shadow-creators-shadow relative flex flex-col items-center justify-end mx-auto xl:mx-0 h-[300px] lg:w-[400px] xl:w-[430px] 2xl:w-[516px] 2xl:h-[303px] sm:w-[350px] w-[300px]">
                 <div className="bg-white py-5 px-6">
                   <h2 className="text-2xl text-center font-semibold mb-4 leading-[180%]">
                     {card.name}
                   </h2>
-                  <p className="text-center text-lg text-gray-600 leading-[180%]">
+                  <p className="text-center text-lg text-gray-600 leading-[180%] max-w-[379px]">
                     {card.profession}
                   </p>
                 </div>

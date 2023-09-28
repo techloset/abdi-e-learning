@@ -50,7 +50,7 @@ function Header() {
           <div className="grid md:grid-cols-2  xl:grid-cols-3 gap-x-6 gap-y-12 mb-[50px]">
             {cards.map((card, index) => (
               <div
-                className="mx-auto lg:mx-0 bg-white shadow-md overflow-hidden p-4 rounded-[20px]"
+                className="mx-auto lg:mx-0 bg-white shadow-md overflow-hidden p-5 rounded-[20px]"
                 key={index}
               >
                 <img
@@ -58,9 +58,9 @@ function Header() {
                   alt={card.title}
                   className="rounded-xl w-[486px]"
                 />
-                <div className="p-4">
-                  <h2 className="text-xl font-bold mb-2">{card.title}</h2>
-                  <div className="flex items-center space-x-4 mb-4">
+                <div className="py-[12.3px] px-[5px]">
+                  <h2 className="text-xl font-bold mb-[10px]">{card.title}</h2>
+                  <div className="flex items-center space-x-4 mb-[25px]">
                     <img
                       src="/images/profileBlogicon.png"
                       alt="ProfilePicture"

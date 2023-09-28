@@ -3,8 +3,8 @@ const Card = ({ cards }) => {
   return (
     <section>
       {/* Heading for the latest News */}
-      <div className=" text-center mt-36 mx-auto">
-        <p className="text-normal-purple text-4xl   font-bold py-5">
+      <div className=" text-center mt-36 mx-auto font-nunito-sans">
+        <p className="text-normal-purple text-4xl font-bold py-5">
           Latest News and Resources
         </p>
         <p className="text-grey-600 text-2xl mt-5">
